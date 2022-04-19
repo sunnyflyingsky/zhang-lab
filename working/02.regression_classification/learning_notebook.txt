@@ -1,0 +1,79 @@
+/data/yuhan/zhangjiasheng/smartnet
+
+## data pre-processing
+loader.py
+step1 划分数据集
+
+loader.py
+step2 随机抽取出1:2的positive和negative数据集
+	第一种随机化方法随机性太大，neg数据集的变化随随机性的变动性很高
+	第二种单药物样本随机化更加可靠————针对ligand的1个positive案例，随机获取其对应的两个negative案例
+
+processor.py
+step3 编码
+	截取药物的smile信息时，对于长于100和短于100的smile结构的处理比较奇怪
+	没有转化成one-hot编码？
+	
+controller.py, loader.py
+step4 参数设置与数据传入准备
+	param的准备
+	数据one-hot编码化
+	数据维度与模型匹配
+
+controller.py
+step5 模型训练和测试
+	根据epoch和batch迭代训练模型，每次训练一个epoch输出一个validation
+	根据validation来自动调节一些超参，比如提早终止
+	当训练终止后，绘制RUC曲线并且进行测试
+	
+
+## model	
+step5 模型搭建
+CNN_CNN
+	63和6是分别代表one-hot编码导致的维度，smile结构有63种类型，AUCG+structure有6种
+	
+	跑成功了
+GCN_CNN
+	需要注意的一点是，CNN采用的是三维的输入，而prismNet采用的是四维的输入，需要对loader.py里面的data_process_loader进行调整
+	
+	跑成功了
+GAT_CNN
+	
+	跑成功了
+GIN_CNN
+	发现一个bug，在运行一次后，需要重启内核，否则因为未知的变量冲突导致模型无法重载
+	跑成功了
+
+
+GIN_Prism
+	prismNet采用的是四维的输入，需要对loader.py里面的data_process_loader进行调整
+	跑成功了
+
+
+
+## 测试新模型
+concat 64*256
+64*64对应位置相乘
+64*64矩阵乘法
+
+
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
