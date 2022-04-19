@@ -1,0 +1,4 @@
+1	CN5CCN(c4ccc(c3ccc2N=C(c1ccc(OCCCC(=O)NCCCN=N#N)cc1)CNc2c3)cc4)CC5
+1a	COC(=O)CCCOc5ccc(C4=Nc3ccc(c2ccc(N1CCN(C)CC1)cc2)cc3NC4)cc5
+2	C#CCNC(=O)C(CCNC(=O)CCCOc1ccc(C2=Nc3ccc(c4ccc(N5CCN(C)CC5)cc4)cc3NC2)cc1)NC
+3	C#CCCC1(CCC(=O)NC)N=N1

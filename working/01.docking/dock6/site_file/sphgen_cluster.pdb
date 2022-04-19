@@ -1,0 +1,154 @@
+ATOM     41  C   SPH    41       6.017  19.550  15.295
+TER
+ATOM     54  C   SPH    54       1.230  17.672  13.800
+TER
+ATOM     64  C   SPH    64       6.976  20.372  17.151
+TER
+ATOM     66  C   SPH    66       6.479  16.256  11.767
+TER
+ATOM     82  C   SPH    82       2.830  16.744  11.921
+TER
+ATOM     83  C   SPH    83       1.813  16.997  14.130
+TER
+ATOM     84  C   SPH    84       6.032  12.220  18.029
+TER
+ATOM     85  C   SPH    85       2.671   6.436  19.981
+TER
+ATOM     86  C   SPH    86       5.203  13.472  11.830
+TER
+ATOM    102  C   SPH   102       4.130  15.012  12.135
+TER
+ATOM    105  C   SPH   105       0.134   1.101  17.447
+TER
+ATOM    106  C   SPH   106       4.761   6.578  11.964
+TER
+ATOM    117  C   SPH   117       1.228  10.049  12.142
+TER
+ATOM    121  C   SPH   121       1.993  14.779   5.050
+TER
+ATOM    128  C   SPH   128       4.970   2.367  13.045
+TER
+ATOM    143  C   SPH   143       4.320  11.325  11.827
+TER
+ATOM    145  C   SPH   145       2.463   3.999   8.851
+TER
+ATOM    146  C   SPH   146       5.352   0.846   7.446
+TER
+ATOM    147  C   SPH   147       2.091  -4.676   8.014
+TER
+ATOM    148  C   SPH   148       5.014   0.209  11.306
+TER
+ATOM    163  C   SPH   163       5.259   6.555  12.480
+TER
+ATOM    168  C   SPH   168       9.292  -2.346   5.764
+TER
+ATOM    169  C   SPH   169       9.407  -4.648   3.008
+TER
+ATOM    170  C   SPH   170       9.383  -0.656   9.149
+TER
+ATOM    171  C   SPH   171      10.107   0.960   5.981
+TER
+ATOM    186  C   SPH   186       7.243   0.754  10.826
+TER
+ATOM    190  C   SPH   190      12.802  -1.313   8.543
+TER
+ATOM    205  C   SPH   205      10.195  -0.164  10.767
+TER
+ATOM    206  C   SPH   206      12.173   1.193   7.917
+TER
+ATOM    208  C   SPH   208      17.527  -1.251   4.447
+TER
+ATOM    209  C   SPH   209      23.290  -0.287   6.353
+TER
+ATOM    210  C   SPH   210      15.021  -1.445   9.387
+TER
+ATOM    215  C   SPH   215      17.894   2.233  11.176
+TER
+ATOM    221  C   SPH   221      17.283   1.730  10.011
+TER
+ATOM    231  C   SPH   231      22.402   0.771   8.106
+TER
+ATOM    233  C   SPH   233      18.328  -2.128  11.198
+TER
+ATOM    245  C   SPH   245      16.083  -0.086  10.978
+TER
+ATOM    271  C   SPH   271      19.034  -3.735  13.060
+TER
+ATOM    272  C   SPH   272      18.603  -1.953  16.706
+TER
+ATOM    487  C   SPH   487      24.093  -2.178  13.012
+TER
+ATOM    514  C   SPH   514      19.062  -5.745  10.567
+TER
+ATOM    530  C   SPH   530      18.623  -1.710   6.315
+TER
+ATOM    531  C   SPH   531      14.183  -3.428   2.207
+TER
+ATOM    532  C   SPH   532      16.672  -2.641  11.814
+TER
+ATOM    550  C   SPH   550      11.554  -4.602  11.569
+TER
+ATOM    551  C   SPH   551       6.150  -3.022   7.342
+TER
+ATOM    552  C   SPH   552      14.314  -1.889  11.094
+TER
+ATOM    574  C   SPH   574      10.166  -0.162  11.696
+TER
+ATOM    589  C   SPH   589      14.421  -0.880  10.901
+TER
+ATOM    590  C   SPH   590      11.516  -4.610  11.579
+TER
+ATOM    596  C   SPH   596       3.364  -0.291  18.864
+TER
+ATOM    606  C   SPH   606       9.630  -0.722  12.534
+TER
+ATOM    614  C   SPH   614       7.070   4.740  18.430
+TER
+ATOM    615  C   SPH   615       2.075   6.657  20.794
+TER
+ATOM    616  C   SPH   616       3.653   3.059  14.989
+TER
+ATOM    617  C   SPH   617       7.070   4.740  18.430
+TER
+ATOM    631  C   SPH   631      10.414   0.712  11.602
+TER
+ATOM    632  C   SPH   632       6.830   1.937  13.940
+TER
+ATOM    634  C   SPH   634       7.641  10.879  20.897
+TER
+ATOM    636  C   SPH   636       4.873   5.839  16.093
+TER
+ATOM    651  C   SPH   651       6.665   6.457  13.009
+TER
+ATOM    652  C   SPH   652       5.954   7.305  15.067
+TER
+ATOM    654  C   SPH   654       7.383  11.865  22.254
+TER
+ATOM    655  C   SPH   655       8.303  17.161  20.398
+TER
+ATOM    656  C   SPH   656       5.991  13.689  18.868
+TER
+ATOM    658  C   SPH   658       8.280  15.896  17.158
+TER
+ATOM    667  C   SPH   667       9.676  11.711  14.077
+TER
+ATOM    671  C   SPH   671       8.993   8.690  11.988
+TER
+ATOM    677  C   SPH   677       7.368  18.138  11.540
+TER
+ATOM    678  C   SPH   678       9.499  19.928  16.265
+TER
+ATOM    679  C   SPH   679       6.018  15.660  11.384
+TER
+ATOM    691  C   SPH   691       9.464  11.008  13.355
+TER
+ATOM    717  C   SPH   717       5.255  14.999  11.323
+TER
+ATOM    734  C   SPH   734       3.802  16.229   4.924
+TER
+ATOM    745  C   SPH   745       4.348  15.251   3.775
+TER
+ATOM    765  C   SPH   765       3.616  18.762   1.935
+TER
+ATOM    804  C   SPH   804       0.397  15.993   5.350
+TER
