@@ -1,0 +1,1177 @@
+#######################################
+xxxx/xx/xx command    xxxx/xx/xx  record:
+
+
+#######################################
+2021/11/27  record:
+10篇文献的阅读，
+其中，包括RNA-drug结合的方法学，review(why?what?how?)，docking，基于片段的药物筛选，深度学习方法(CNN,GNN)
+pytorch的深度学习框架的搭建
+服务器链接搭建，以及相关软件下载，mac系统过的熟悉
+
+1.Small molecules against RNA targets attract big backers:
+review 解释了target到RNA上的小分子这类研究如何趋近于热门，以及其中包含的价值，例子为主。
+行文类似于新闻稿。
+
+#######################################
+2021/11/28  record:
+
+*11.Geometric deep learning of RNA structure
+methods 很像molecular dynamic，一种基于深度学习的分子模拟程序的感觉
+内核在于，特征提取不包含任何先验经验，仅通过原子空间位点以及原子类别预测结构，可拓展性强
+对于RNA结构的解析技术，可能会有比较大的帮助
+
+2.Principles for targeting RNA with drug-like small molecules
+review 主要介绍RNA结合小分子的现状，挑战以及一些理论性假设
+作者基于类药性和结合潜力两个方向，
+同时综合目前已发现的药物小分子进行归纳总结，
+这是在蛋白-小分子药物开发常见的一种策略
+给予了一些启发式的建议
+
+
+#######################################
+2021/11/29  record:
+*3.Computer-aided design of RNA-targeted small molecules: A growing need in drug discovery
+review 主要针对RNA-target小分子药物的计算方法综述
+总结了一些RNA结构预测模型，RNA dynamic simulation，RNA-小分子docking模型
+其中RNA结构预测方法，基于物理原理；基于碎片结构拼接；基于二级结构数据补充；基于全序列的同源序列建模；基于进化近源相似；
+MD模型，
+docking模型，
+
+
+与师兄针对后续开展工作聊了很多，目前已经大致了解工作的主要内容和一些细节
+
+#######################################
+2021/11/30  record:
+*8.RNA–ligand molecular docking: Advances and challenges
+reviews 介绍目前为止的众多docking工具的优劣，以及各自的功能、原理
+	(未完待续 至2021/12/04)
+
+5.DeepDTA: deep drug–target binding affinity prediction
+Methods 基于深度学习的CNN卷积神经网络，用于药物RNA亲和力的预测上
+	其中小分子的编码形式与我们的onehot形式略有不同，采取的是0-64的值编码的形式
+	
+#######################################
+2021/12/01 command  2021/12/01  record:
+#环境
+source ~/yuhan/env.sh
+conda activate dock
+
+#提交任务
+bsub -o output.txt -e err.log -q Z-ZQF -m node530 -n 1 "bash docking.sh"
+
+#vino prep(未采用)
+nohup pythonsh ${pythonScriptPath}/prepare_receptor4.py -r ${infile}/temp_set/receptor.pdb -o ${infile}/temp_set/receptor.pdbqt -A checkhydrogens -U waters  &
+nohup pythonsh ${pythonScriptPath}/prepare_ligand4.py -l ${infile}/temp_set/ligand.pdb -o ${infile}/temp_set/ligand.pdbqt &
+
+#dock standard prep
+Ligand = chimera.openModels.list(modelTypes=[chimera.Molecule])
+prep(Ligand, method='gas', addHFunc=AddH.simpleAddHydrogens)
+
+#关于docking的四个脚本
+/Share2/home/zhangqf7/yuhan/rotation_student/zhangjiasheng/Docking/RNA/ChimeraPrep.py
+/Share2/home/zhangqf7/yuhan/rotation_student/zhangjiasheng/Docking/RNA/docking.sh
+/Share2/home/zhangqf7/yuhan/rotation_student/zhangjiasheng/Docking/RNA/scripts/prepare_ligand4.py
+/Share2/home/zhangqf7/yuhan/rotation_student/zhangjiasheng/Docking/RNA/scripts/prepare_receptor4.py
+
+#chimera相关工作的网页
+https://www.cgl.ucsf.edu/chimera/current/docs/UsersGuide/framecommand.html
+
+#######################################
+2021/12/02 command  2021/12/02  record: 
+
+上午的小分子药物设计的报告，基于计算化学经验指导的计算设计
+
+chimera脚本语言
+from chimera import runCommand as rc
+rc('command of chimera')
+
+import chimera
+mols = chimera.openModels.list(modelTypes=[chimera.Molecule])
+mols是一个包含了所有molecules的list
+其中mols[i]是一个chimera molecule类型
+help(chimera type)能够获取相应的函数和参数表
+
+
+#awk 以及awk变量转为shell变量
+awk '
+BEGIN{}
+{
+if(){}
+else if(){}
+else {}
+}
+END{}' infile
+
+eval(awk)语句
+
+#截断字符串
+name=${pdbFile:0-8:4}
+
+#vina
+vina --receptor ${infile}/temp_set/${name}_receptor.pdbqt --ligand ${infile}/temp_set/${name}_ligand.pdbqt --center_x ${cx} --center_y ${cy} --center_z ${cz} --size_x ${l} --size_y ${w} --size_z ${h}
+
+#######################################
+2021/12/03  record:
+dock6相关网页：http://dock.compbio.ucsf.edu/DOCK_6/index.htm
+
+初步完成vina的脚本搭建。
+但事实上，不同docking软件的策略不同，输入输出也大不相同，在脚本的搭建上，依然存在一些问题。
+
+#######################################
+2021/12/04  record:
+*8.RNA–ligand molecular docking: Advances and challenges
+reviews 看完了，比较系统性、综合性地总结了当前的一些docking策略和docking methods
+	总体上来说，知识面和知识体系比较完备，对于RNA-小分子ligand的结合的进展具有比较大的贡献
+	具体总结看word文档
+
+4.Fragment Based Drug Design: From Experimental to Computational Approaches
+review 关于拼接的药物设计策略，包含了实验方法和计算方法
+	对于知识体系的补充和总体思路的完善具备一些价值，但是总体上方法比较老
+	(未完待续 至2021/12/07)
+
+#######################################
+2021/12/05  record:
+无
+
+#######################################
+2021/12/06 command 2021/12/06  record:
+#dock6 具体执行步骤如下
+http://dock.compbio.ucsf.edu/DOCK_6/tutorials/index.htm
+#01_struct_file (已完成) chimera进行，输出receptor和ligand的mol2文件，以及receptor带H和不带H的pdb文件
+#02_site_file (已完成) chimera+sphgen等进行 生成受体表面，以及计算活性位点 具体看tutorials
+	sphgen INSPH
+	showsphere < sphgen_cluster.in
+	sphere_selector receptor.sph ${infile}/temp_set/struct_file/ligand.mol2 20.0
+	showsphere < selected_cluster.in
+#03_generation_grid (已完成) 获取活性中心pocket的grid的参数，用于后续进行对接
+	showbox < box.in  #其中这个showbox也能用于vina的search box的获取，box.out包含了对应的立方体的范围以及中心参数
+	grid -i grid.in -o grid.out
+#04_lig_sampling (已完成) 执行dock6的anchor_and_grow以及rigid式策略，主要是根据ligand生成碎片库，然后docking依次拼接延伸
+	dock6 -i rigid.in -o rigid.out
+	dock6 -i anchor_and_grow.in -o anchor_and_grow.out
+#其中这些.in文件均包含了输入文件位置，参考文件位置，输入参数等诸多数据，具体看官方文档介绍
+
+#将输出的pdbqt转化为pdb文件
+babel -i pdbqt xxx.pdbqt -o pdb xxx.pdb
+
+#输出DMS文件
+from WriteDMS import writeDMS
+rc("open 1_Rec_noH.pdb")
+rc("surface #0")
+surf = chimera.openModels.list(modelTypes=[chimera.MSMSModel])[0]
+writeDMS(surf, "1_Rec.dms")
+
+#vina脚本行的优化以及dock6完成
+	1) vina参数含义，--exhaustiveness, --num_modes, ----energy_range, ....
+	2) vina结果验证
+	3) Dock6 高通量运行
+	4) Dock6 参数设置，如何适用于RNA的docking
+后续还需要优化——部分参数，比如9999，比如一些function的采用，比如radius=10.0
+另外如何比较两个pdb文件的RMSD还存在一些问题
+
+#######################################
+2021/12/07 command 2021/12/07  record:
+4.Fragment Based Drug Design: From Experimental to Computational Approaches
+review 由于年份比较早，观点比较陈旧，但是对于FBDD和SBDD的分析以及总结是比较到位的
+	其中总结了大量的采用FBDD的策略，包括打分函数，实验方法，计算方法等
+
+#实现pdb merge文件的链分离
+完成merge.py脚本
+
+#完成vina和dock6的脚本的运行
+存在的问题有，rmsd的计算不太符合一般的计算模式，而是最小化的计算结果，需要优化
+优化方法rc("rmsd #1 #0")
+
+在于师兄的脚本结果比较之后发现一些不同，但是具体哪个正确还不清楚
+
+后续工作的安排已大致了解
+
+#######################################
+2021/12/08 command 2021/12/08  record:
+蛋白PDB结构refine
+ES3transfer
+
+比较宇涵师兄的docking流程和自己的，比较差别
+
+下载transfer learning的代码并进行阅读
+https://doi.org/10.5281/   ##ARES训练模型的主体代码
+https://doi.org/10.5281/   ##E3NN的运用代码   https://github.com/e3nn/e3nn
+https://doi.org/10.5281/zenodo.5090157  ##验证和绘图代码
+
+*12.Effective gene expression prediction from sequence by integrating long-range interactions
+method 基于序列的gene expression的prediction方法，Enformer，
+	能够整合远距离关联的信息
+	self-attention，通过attention的权重比能够发现一些生物知识图谱，比如这篇文章通过attention高的序列寻找增强子
+	Transformer deep learning methods 
+	Enformer contribution scores — input gradients (gradient×input) and attention weights 
+
+#######################################
+2021/12/09 command 2021/12/09  record:
+*13.RNA structural dynamics regulate early embryogenesis through controlling transcriptome fate and function
+discovery & pipeline 研究RNA结构与胚胎早期转录组命运和功能决定，
+	重点在于其中的computational pipeline 如何从icSHAPE的数据中得到统计以上可靠的dynamic region并且进行后续的motif分析
+	学习如何绘制其中一些图，
+
+跑完全一套human的motif富集流程
+完善脚本
+绘制了human的motif enrichment的图像
+
+完善之前的docking脚本
+跑完师兄的vina docking脚本，做了小部分修改
+
+#######################################
+2021/12/10 command 2021/12/10  record:
+14.A Survey On Deep TransferLearning
+review 关于深度迁移学习的的综述，总结了四种比较具有代表性的迁移学习的策略（截止至2018年）
+	a.Instances-Based Deep Transfer Learning，公共特征选取法，选取他们特征空间重叠部分的样本作为新的输入样本
+	b.Mapping-Based Deep Transfer Learning, 将source和target数据映射到新的特征空间中进行深度学习，loss function中加入DMM(Xs,Xt)来作为两个数据的映射后差异
+	c.Network-Based Deep Transfer Learning，
+	考虑模型的层进行迁移，对于两个相似性较高领域数据的深度学习，在模型的前部分层进行相似的特征提取，后部分层才进行区别学习，
+	在对target学习时，直接迁移source学习好的前部分层的weight和架构，然后将前部分层的LR降低或设为0，
+	d.Adversarial-Based Deep Transfer Learning，基于对抗的深度迁移学习，
+	特征提取器与目标判别器的对抗，最终目标是生成的特征尽可能帮助区分两个领域的特征，同时使得判别器无法对两个领域的差异进行判别。
+
+学习使用python脚本式的weblogo绘制motif
+完成脚本trans_meme.py 实现从.meme到motif的PNG图像的转化
+绘制了所有human的motif logo
+
+更新shuffle流程，针对背景采用更多层次的shuffle，获取更具备统计意义的结果
+
+#服务器文件传输
+scp -r xxx yuhan@20.20.91.14:xxx
+
+#######################################
+2021/12/11 command 2021/12/11  record:
+针对目前存在的数据精度过高，机器无法计算的问题：
+	1.增大sliding windows的滑动距离，从1变为5或者10，减少重复计算
+	2.shuffle的合并量减少，比如测试一下两倍shuffle数据和一倍的差距（shuffle数据两倍于前景数据）
+	3.针对100次shuffle合并后的文件进行随机采样，每次采样数量为前景数据的motif数，进行1:1的计算，重复操作10次，计算p-value的均值
+
+计算背景样本量的增大，卡方分布p-value的计算精度就会上升，导致计算机无法支撑
+其中，在1:0.5(40w+)情况下0有约15个，在1:1情况下0有约34个
+
+迁移学习简明手册
+中文版的迁移学习综述，
+
+#######################################
+2021/12/12 command 2021/12/12  record:
+整理好了human motif enrichment的分析流程，完整的脚本打包
+zhang lab/work/10.coding/RNAmotif/motif_anlysis.rar
+
+/Share2/home/zhangqf7/yuhan/fimo/meme/5.4.1
+
+富集过程存在的几个问题：
+	1.p-value可以取均值，那么count计数呢？  考虑先取均值然后再计算p-value？
+	2.针对相同大小的.fa sequence文件，获取的motif数量背景远小于前景，那么采取得到的motif数量作为总数计算p-value是否靠谱呢？
+	3.考虑对数量进行均一化操作，降低精度，采取这种方式首要是检测均一化过程是否影响计算结果的次序。
+	4.过滤掉一些次序较低的motif，不考虑它们，使得采样motif总数减小
+
+#######################################
+2021/12/13 command 2021/12/13  record:
+检查斑马鱼的分析流程，比较出一些不同
+	1.斑马鱼分析过程中进行了严格的merge操作，所以bed序列之间不存在交叉，而且不会计算同样的位点多次
+	2.进行了1000次shuffle后，每次单独计算，得到多个enrich.txt然后进行concat.
+	3.set操作是针对原基因组的位点，所以之前修改的地方有误，应当修改字典内加入的信息为原基因组位点
+	4.但随之而来的下一个问题是，为什么总数还是没有set过的数量；
+		总结一下这个问题 ———— 从fa文件中寻找motif，前景找到的motif数量远多于背景，也就是说背景中存在很多non-motif没有计算进去
+								计算non-motif采取的是总数减去set后的motif值，
+		我们要解决的问题是什么？ 是找出前景中高表达的motif吗，似乎不是，而是找出在前景中差异其他motif表达的motif。所以第一个问题似乎不是问题
+	
+学习并修改dynamic region
+
+不采用单纯的原子位点，而是图网络的模式，可能更能描述原子之间的关系
+而且transformer可以加在这里，学习更远距离的原子信息
+
+shuffle多次和shuffle单次的差别
+修改non-motif count的问题
+
+#######################################
+2021/12/14 command 2021/12/14  record:
+完善了dynamic region 的脚本，修改了一些错误，并整合成包
+加入更单链和更双链的信息，用sequence序列形式表示，其中，更单链标记为+，更双链标记为-，变化不大标记为*，信号丢失标记为.
+
+
+单细胞的数据，我全部处理好并且做好mapping了，你可以尝试通过.bam或者.sam文件，计算一下每条转录本上的reads覆盖了多少%。
+/Share2/home/zhangqf7/yuhan/3_zhaokang/20211115_smartseq3/4.mapGenome/3_merged2.fastq.sorted_bc1.bam
+思路： 取bam文件的chrom start length列,生成bed文件，然后做merge，根据merge之后的文件取各段的length与genome的length比较
+
+#######################################
+2021/12/15 command 2021/12/15  record:
+icSHAPE pipeline 的学习
+http://olddriver.website/Applications/icSHAPE-pipe-tutorial.html
+
+考虑计算reads覆盖到转录本上的百分比，也就是宽度
+samtools view -h 3_merged2.fastq.sorted_bc1.bam | less
+samtools view -h 3_merged2.fastq.sorted_bc1.bam| grep "@SQ" >3_merged2.fastq.sorted_bc1_anno.txt
+bamToBed -i 3_merged2.fastq.sorted_bc1.bam > 3_merged2.fastq.sorted_bc1.bed
+bedtools merge -i 3_merged2.fastq.sorted_bc1.bed > 3_merged2.fastq.sorted_bc1_merged.bed
+
+方法大致如下，首先利用转录组的fa文件将fastq文件mapping到每一个转录本上，然后针对mapping出来的bam文件获取bed并merge
+然后直接计算每个转录本中的每个region的end-start即可，求和则知道每个转录本的coverage占比
+icSHAPE-pipe starbuild -i ${GENOME} -o ${OUT}/index/ --gtf ${GTF} -p 20
+icSHAPE-pipe mapGenome -i ${file} -o ${OUT}/4.mapGenome/${file} -x ${GENOME} -p 10
+bowtie2-build {genome}.fa {outpath}/name
+bowtie2 -p 6 --rg-id sample_id --rg "PL:ILLUMINA" --rg "SM:{sample_name}" -x {ref}/name -U {input}.fastq > {output}.bam
+featureCounts -a /Share2/home/zhangqf7/yuhan/0_annotation/Gencode/mm10.gtf -o /Share2/home/zhangqf7/yuhan/3_zhaokang/20211115_smartseq3/5.featurecounts/all_bc1.txt -t exon -g transcript_id -O /Share2/home/zhangqf7/yuhan/3_zhaokang/20211115_smartseq3/4.mapGenome/3_merged2.fastq.sorted_bc1.bam
+
+*10.Augmented base pairing networks encode RNA-small molecule binding preferences
+methods 利用图表示RNA，node包含碱基信息，edge包含碱基间的配对信息（其中既包括常见的配对，以及不常见的13中碱基配对）
+	ABPN(Augmented Base Pairing Network) & RGCN( Relational Graph Convolutional Network)
+
+#######################################
+2021/12/16 command 2021/12/16  record:
+继续完善dynamic region的脚本，输出正负链seq信息的同时，输出这条序列更偏向于单链还是双链，
+more表示更偏向于单链，less表示更偏向于双链，unknown表示存在噪音过大无法判断或者既不更单链也不更双链
+同时输出more和less的count计数
+
+bsub -o output.txt -e err.log -q Z-ZQF -m node531 -n 1 "samtools view -h 3_merged2_large_clean.sam |samtools sort -@ 8 > 3_merged2_large_sorted.bam"
+bsub -o output.txt -e err.log -q Z-ZQF -m node531 -n 1 "cat 3_merged2_large.sam |grep "^[A@]" > 3_merged2_large_clean.sam"
+
+没有区分barcode，同时获取的并非unique的read覆盖信息
+
+19.RBinds: computational network method to predict RNA binding sites
+methods 基于图网络的RNA binding site的预测模型，模型效果一般，
+	其中，针对核苷酸构建node，然后重原子距离8 A以内构建边的想法可以作参考，node赋值的思想可作参考
+
+#######################################
+2021/12/17 command 2021/12/17  record:
+unique操作：
+samtools view -bq 2 3_merged2_large_sorted.bam > 3_merged2_large_unique_sorted.bam  （本次采取了这个）
+samtools view -bq 1 3_merged2_large_sorted.bam > 3_merged2_large_unique_sorted.bam  （更可能是这个）
+区分barcode
+samtools view -h 3_merged2_large_unique_sorted.bam |grep "GGAGAGTT+CCAACCAA" >> 3_merged2_large_unique_sorted_bc2.sam
+
+整体的思路如下：
+首先根据fastq文件进行mapping，得到bam文件
+（根据fastq文件的$3可以获取barcode信息，并可以统计barcode数量，然后sort）
+然后对这个bam文件进行unique操作
+（然后可以根据barcode信息提取出符合的barcode reads整理成新的bam文件）
+bam文件获取bed信息
+bed进行merge
+merge之后用end-start获取转录本上的coverage区间，除以转录本大小即可
+
+区分不同细胞有两种方法，第一种是从fastq文件去抓序列中包含第一行第一列的id的reads，可以用grep -A 3命令
+第二种是从sam文件去抓，但是需要改一下fastq文件的id，让前面和后面变成一部分，不然结果文件只会显示前面一部分，可以通过加下划线等方式
+
+已写完dynamicRegion.py
+-h内容还需要增加，比如每一步start_step对应的起始
+
+#######################################
+2021/12/18 command 2021/12/18  record:
+15.Domain-Adversarial Training of Neural Network
+methods 基于博弈和对抗的tansfer learning方法，文章详细介绍了shadow版本和deep版本的DANN模型，
+	三个线性的模型结合(feature extractor + label predictor + domain classifier)，
+	其中feature extractor到label predictor之间主要通过前馈模型结合，而在feature extractor和domain classifier之间加入了梯度逆转层
+	loss function主要是最小化label predictor的loss，最大化domain classifier的loss
+	同时针对一些文本处理和图像处理进行了一些训练和测试，
+	其中比较好的思想是：巧妙的梯度反向传播计算方式，loss function选取。
+	但是其采取的target domain 是完全无标记的，这与我们面临的target domain data数据较少有些许差异，
+
+#######################################
+2021/12/19 command 2021/12/19  record:
+16.How transferable are features in deep neural networks
+methods 一种基于迁移模型以及模型参数的迁移学习方法，以及一些定量比较手段。
+	它构建了一种方法，基于随机划分的两类图像A以及B进行迁移学习，训练一类8层的深度CNN神经网络，其中，前n层基于source训练而迁移的神经层
+	AnB表示迁移前n层且冻结前n层参数变动的迁移学习模型，AnB+表示迁移前n层但继续优化的迁移学习模型；作者比较了B,AnB,BnB,AnB+,BnB+(n属于1到7)的不同表现
+	其中比较好的思想是，提出了一个图像识别领域的共识——第一层神经层通常学习出来相似的特征，这对于不同的数据和任务都表现出相似的情况；而对于最后一层神经层，通常因任务和数据表现出特异性和差异性
+	文献中构建了一个数量体系，用以衡量general-specific的程度的定量评价体系
+	同时也构建了一个量化体系，衡量source domain和target domain之间的学习距离
+	fragile/complex co-adapted features on successive layers & specialization on higher layers
+
+开始进行icSHAPE以及smartSHAPE数据的处理和分析
+生成index
+
+#######################################
+2021/12/20 command 2021/12/20  record:
+继续进行icSHAPE的流程，完成初步的icSHAPE的分析，得到结果文件.shape
+结果并不符合期望，中间某一步出现错误，尝试测试
+
+*22.icSHAPE-pipe A comprehensive toolkit for icSHAPE data analysis and evaluation
+methods 针对icSHAPE实验数据进行数据处理和分析的流程，文献中提供了每个步骤的原理和计算方式，同时也提出了其区别于原本的icSHAPE-origin的改进之处
+	同时，参照网页版的pipeline流程，学习如何使用icSHAPE-pipe并了解其中参数的意义
+
+#######################################
+2021/12/21 command 2021/12/21 record:
+完成icSHAPE和smartSHAPE的第一次完整流程
+其中，smartSHAPE的数据来源于小鼠，应当采用mm10的注释文件
+icSHAPE的数据来自于human，应当采用hg38的注释文件
+
+6.RNAPosers- Machine Learning Classifiers for Ribonucleic Acid–Ligand Poses
+method 采用决策森林的分类器对RNA-ligand的binding进行评估
+	其中提出一些比较有意思的方法，leave-one-out dataset, generate decoy poses, ingenious FingerPrint encode
+
+#######################################
+2021/12/22 command 2021/12/22 record:
+和师兄讨论处理流程中出现的问题
+
+其一，在dynamic region计算过程中，由于在不同转录本之间切换的脚本逻辑错误原因，导致会出现多于常规情况的dynamic region。
+统一后的脚本文件路径为/data/yuhan/zhangjiasheng/motifEnrichment/dynamic_region/dynamicRegion.py
+其二，结构信息的注释考量参数过多
+
+
+#######################################
+2021/12/23 command 2021/12/23 record:
+motif富集的结果出现一些预料之外的情况，需要考虑为什么
+或许可以不考虑进行more single structure和less single structure的分别富集比较工作
+（事实上，在未富集的所有motif上，均表现为less多于more，所以富集的motif上有这种表现也正常）
+我们可以做多motif单位点的more 和 less的结构曲线变化图
+
+完成icSHAPE和smartSHAPE的正确的流程，获得正确结果，并整理出一份脚本和学习参考资料
+
+开始学习师兄的deeplearning 分类模型的的代码
+
+#######################################
+2021/12/24 command 2021/12/24 record:
+开始尝试进行仅考虑RNA序列的分类模型的尝试
+模型CNN+CNN seq 失败
+
+*7.AnnapuRNA- a scoring function for predicting RNA-small molecule interactions.
+method 基于DL和KNN的docking打分软件，能够给出不同pose的优劣性
+	其中文献横向对比多个docking软件，采用的一些衡量指标和比较方式可以用来参考我们的regression模型
+	而且regression模型的RMSD的cutoff也能够通过其中的一些结论来选取
+
+对于回归模型，模型的搭建理论没有问题，
+可以考虑把这个故事更完善，
+	其一，RMSD的可视化衡量手段
+	其二，可以对比一些已有的预测软件比如AnnapuRNA
+	其三，表现其加入新数据后对分类模型的训练有成效
+
+
+#######################################
+2021/12/25 command 2021/12/25 record:
+无
+
+#######################################
+2021/12/26 command 2021/12/26 record:
+模型GCN+CNN seq+struct成功
+模型GAT+CNN seq+struct成功
+
+一个比较大胆的想法，针对回归模型，我们可以考虑其ligand的评估分布，
+考察机器是否对ligand存在偏好性，可评估的手段，比如箱型图，小提琴图之类的
+同样的方法也可以针对RNA进行评估，对RNA评估时甚至可以考虑层次聚类，考虑其中的RNA序列和ligand对的知识图谱
+
+对于分类模型的建议
+	缺少横向比较，AUC曲线对于模型的评估确实比较有价值，但是落到实际的模型比较上更加靠谱
+	更加直观的比较方式，比如RMSD
+
+dynamic region和motif enrichment的分析
+目前存在的问题是，不同亚细胞器所表现的motif富集的情况以及分布基本类似，仅存在少量的差异
+	1.dynamic region的检索方式存在问题，其一是101,60,5的窗口设置比较宽泛，得到的dynamic位点离散而且少；其二是merge之后进行slide的过程产生了很多overlap的dynamic区域；其三是
+		尝试用10bp的窗口检索，用average来计算cutoff，然后merge成30bp；或者用10,8,4的窗口扫，类似的分析手段
+	2.亚细胞器之间的转录本的重叠程度，dynamic region的重叠程度，以及dynamic region之间的序列相似度，dynamic region对motif检索的贡献程度
+	3.dunamic site和motif之间存在偏移，找出motif准确cover在dynamic site处的比例
+	4.motif之间的序列模式相似性，motif本身具备的生物学意义以及common性(一些RBP可能就是在许多生物学位置产生作用)，specific的motif
+		尝试去看看中间富集的motif是否有差异，回溯高富集motif所在的转录本的overlap
+	5.组间差异比组内差异要大，为什么？
+	6.utr3区域的占比问题
+
+#######################################
+2021/12/27 command 2021/12/27 record:
+补齐不足30bp的merge dynamic region方便进行slide
+其余无
+
+复杂的模型对于少量数据更容易出现过拟合的情况，考虑其他简单的模型来训练这个回归器，或者尝试直接采用docking的结果来作为新数据
+构建小分子药物的分类器，类似于层次分类的分类器，通过特征提取层和模型分类层来构建，然后将特征提取层迁移到回归模型中用来进行回归。
+
+#######################################
+2021/12/28 command 2021/12/28 record:
+找RBP相关的motif的数据库，或者文献参考中已有的一些数据
+数据库总库:
+https://ngdc.cncb.ac.cn/databasecommons/
+RBP数据库:
+	ATtRACT		159 uniq - 159 total - 2297 motifs(1194)
+	CISBP		193 uniq - 392 total - 193 motifs(193)
+	oRNAment	223 uniq - 453 total - 453 motifs(453)
+	RBPDB		133 uniq - 406 total - 667 motifs(56)
+	OMIM
+
+*27.A census of human RNA-binding proteins
+review 很强的一篇文章，尤其是对于初学者而言。包含了丰富的信息，逻辑严谨，证据充实
+	主要描述了截止2014年左右RBP的研究状况，总结了大量的RBP，RBP实验技术，RBP计算手段，RBP验证手段，RBP功能，特征，囊括了RNA以及转录后基因调控的大部分机制和信息。
+	文献中提供了1542个humanRBP(这些RBP是通过CLIP-seq,RIP-seq以及800个RBDs推断得出来的)，并根据RBP的靶向RNA类别进行分类(subclass)，
+	RBP和TF均在基因组上高占比，高表达(RBP比TF高)；RBP与多种代谢通路相关
+	这些RBP在物种之间具备极大的保守性(TF的保守性没有这么强)，但是family众多(1111)，每个family包含的RBP数量相较于TF少
+	RBP组织特异性表达不高(98%的泛表达)，但是在不同组织之间存在显著的差异表达情况，其中以生殖器官和神经器官尤其显著，文章特别拿出来进行了分析。
+	作者还根据每种family的差异表达以及特异性表达的RBP情况对family进行粗略的分类
+
+awk -F " " '{print $2}' RBP_id_encoding.csv | sort | uniq | wc -l	
+	
+#######################################
+2021/12/29 command 2021/12/29 record:	
+最终商讨决定采取oRNAment数据库作为RBP的来源，根据oRNAment的PWM矩阵生成meme文件，并规范化
+
+awk 'NR == 1 {next} {print $2,$3,$4,$5}' PWMs/00${i}.PWM|matrix2meme -alpha DNA -url None  > MEMEs/00${i}.meme
+
+然后concat这些meme文件到一个总文件中并对应好id，生成id和RBP name的对应文件
+绘制RBP的logo图
+脚本文件concat.py, transmeme.py,
+
+
+https://zhuanlan.zhihu.com/p/369716572
+https://theorangeduck.com/page/neural-network-not-working
+解决模型不收敛的问题
+	1.数据归一化，如z-score、线性函数归一以及one-hot编码(一般假设输入和输出数据都是服从均值为 0，标准差为 1 的正态分布)，
+		同时考虑归一化过程中因为精度问题导致的0和nan值生成
+	2.检查输出结果，在pipeline的每个中间过程输出并检查结果，包括参数，权重，loss，特征变化等，最好是能够可视化和知识化
+	3.数据预处理，特征映射关系，空间相对位置以及平移旋转不变性等，同时减少组合爆炸去除学习冗余，清理数据，去除异常值
+	4.正则化，如L1,L2范式化，dropout，预测期间要关闭正则化？
+	5.减小batch size，即增大步长，使得每一次随机梯度下降迈更大的步长
+	6.校正学习率，一般学习率比较小，0.0001左右，在找到较优的学习率后再考虑梯度裁剪
+	7.正确的激活函数，很多时候在最后一层可能出现错误的激活函数，回归任务，大部分情况下是不需要在最后一层使用任何激活函数
+	8.修改网络包含的坏梯度，坏梯度会导致"神经元死亡"，尝试使用如 leaky ReLU 或者 ELUs 等激活函数
+	9.网络权重正确的初始化，尝试使用已有的一些经验证的初始化方法如“he”，“xaiver”和“lecun”，尽量避免自定义化初始化
+	10.神经网络太深，先从3-8层的神经网络入手，在保证输出后，进行优化过程
+	11.设置正确的隐藏层神经元数量
+	
+
+#######################################
+2021/12/30 command 2021/12/30 record:	
+negative数据集的选取问题：
+	对于分类模型的negative数据集，可以考虑拿更大的小分子库，包括很多有毒性或者完全不具备结合亲和力的小分子作为阴性样本
+	对于回归模型，可以考虑拿一些不结合的小分子和RNA做docking，
+	考虑数据集的RMSD分布问题
+我们希望学出的模式是，RNA的pocket,RNA的binding motif, RNA活性碱基位点，小分子的活性残基，小分子的亲疏水端
+
+32.reliable graph neural networks for Drug Discovery Under Distributional Shift
+methods 采用SNGP的GNN网络形式，在小分子药物特征提取中加入距离判定，从而解决训练集分布于真实分布存在差异的状况
+	其中的SNGP的方式，或许对于我们出现小分子依赖型的回归模型有所帮助
+
+36.Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness
+DLmodel & method SNGP的深度学习模型，google开发
+	作者提出深度学习中一个很重要的层面，training的分布并不等同与自然的总分布，文章希望通过两个分布之间的distance awareness来降低分布外的预测错误风险
+	通过数学推导，构建training的分布，并且构建一些loss score用于衡量风险误差，目的是最小化最大loss score，使得模型对于不处于training分布的样例能够做出尽可能低风险的预测
+	主要包括SN层和GP层，GP层在输出之前，通过分布构建高斯随机化函数，SN层则通过最小化最大loss score来学习和预测
+	(有待进一步加深理解)
+	
+*31.TransformerCPI- improving compound–protein interaction prediction by sequence-based deep learning with self-attention mechanism and label reversal experiments
+methods & analysis 解决一些数据集问题的深度学习模型
+	文中提出三种深度学习中比较容易出现的pitfall，即数据集分布不恰当，隐藏的小分子误差，数据集划分不正确。这恰好是我们目前的瓶颈——数据集不足，分布不恰当，小分子模式强，数据集划分难
+	作者通过一些定量方法衡量小分子和蛋白对结果的影响权重比，发现小分子的权重影响大，蛋白权重集中在0，
+	同时作者定义了一个log函数，用于衡量positive和nagative的比重分布
+	而针对训练集，验证集，测试集做出分布检测，尽可能保证模型泛化性能也是机器学习很重要的层面，同时作者提出了一种reversal test，即test与validation采取跟train中相同ligand，不同蛋白以及相反的标签
+	最后，文章提出一个transformer模型，与我们的模型区别在于，它不单独进行小分子的特征提取，而是把小分子和蛋白提取好的特征concat后提取interaction的特征，然后过全连接层
+	作者提出了很重要的一点，我们并非要学习小分子或者蛋白的特征，而是学习interation的特征
+	文章最后进行了知识图谱的归纳，将attention的小分子原子和蛋白位点学习了出来，一个小分子对于不同的蛋白attention weight不同，并且符合小分子的活性互作位点
+	
+工作：
+	1.regression模型的参数衡量，包括参数的权重分布，参数的迭代变化，数据集的正负样本分布，数据集的RMSD分布，结果的RMSD分布
+	2.搭建加入transformer的模型，用于提取interaction的特征
+	3.使模型收敛
+
+module.__getattr__("_packed_params")
+parm={}
+for name,parameters in model.model.named_parameters():
+  print(name,':',parameters.size())
+  parm[name]=parameters.detach().numpy()
+
+在权重矩阵的分析过程中，我们发现了类似的现象，
+现象总结如下，在图神经网络第0层出现极度稀疏的情况，随着层数的增加，矩阵稀疏程度减少，并且权重值增大，数值在-5到5之间
+但是在CNN和prismNet中，矩阵的稀疏程度不高，并且权重分布比较均匀，数值在-1~1之间
+但是，需要提出的一点是，这种现象来自于GNN，GCN，GAT以及GIN的网络结构与CNN网络结构的差异性
+图神经网络因为结点之间并非两两都有边链接，故而出现一开始稀疏的状况，而稀疏状况所导致的后续的权重矩阵的值变动大也是可以理解的
+我们通过CNN与CNN对比，可以发现，drug的模式和RNA的模式几乎没有差异，
+
+#######################################
+2021/12/31 command 2021/12/31 record:	
+在与徐奎师兄讨论后，后续需要考虑的要点有：
+	1.concat步骤不进行直接的并集，而是采取矩阵乘法的形式，两两交叉  ****
+	2.在Drug和RNA各自训练的过程中进行信息交互，提供一些信息交互的桥梁，但是需要弄清楚依靠什么凭据去做这个信息交互，以及交互什么信息，怎么交互
+	3.数据集的划分可能可以更加random，在不同的epoch考虑随机取negative的数据，保证能够取到所有negative数据
+	4.对于小数据集，考虑一些更简单的模型，尤其是在回归上    ****
+	5.回归可以考虑采用二分类，而且师兄之前已经有了二分类的训练结果
+	6.分析特征矩阵在每一层的变化情况，以便了解drug和RNA的权重影响，同时，关注在各自特征提取过程中是否会互相影响到，以及之后的全连接层的表现   ****
+	7.考虑用transformer进行concat   ****
+
+完成multiply的过程，效果显著，无论是CNN模型还是GIN+PrismNet模型
+CNN 0.65->0.75
+Prism 0.79->0.81 0.73->0.74
+后续需要考虑的改进是————加入模型进行训练，训练出这个multiply的关系
+
+#######################################
+2022/01/01 command 2022/01/01 record:	
+43.Three pitfalls to avoid in machine learning
+review 介绍了google在machine learning开发过程中遇到过的三个误区，也是机器学习和DL开发过程中尤其需要注意的地方
+	其一，数据集的划分问题，训练集和测试集的分布相似度，数据的时间、环境变化差异性等
+	其二，隐藏的影响因素，学习器很有可能学习到一些不重要的但是在数据中很明显的特征作为主要特征，或者说学习器片面地由某一些特征来决定最终结果————与我们的知识架构不同
+	其三，对象误解，loss function的数值仅仅表示的数学上含义，不具备实体对象的性质，在面对不同对象时，学习器可能吧重点落在错误的对象上。
+
+#######################################
+2022/01/02 command 2022/01/02 record:	
+25.Geometric deep learning on molecular representations
+review GDL方法的总结性文章
+	文中总结了GDL和AI相关的诸多术语，以及针对其概念，性质，分类，应用做了详细的解释
+	目标: drug discovery, quantum chemistry, computer-aided synthesis, molecular property prediction and structural biology
+	数据形式: text sequences, speech signals,images and graph
+	分子的数据输入形式: graph, grid, surfaces, strings, 
+	ML methods: GNN(mpnn,E3,SE3,3D),CNN(2D,3D), RNN, Transformer
+	
+transformer添加在drug和RNA合并的地方，采用
+
+完成简单回归模型的数据处理流程
+搭建xgboost的回归模型和分类模型
+
+#######################################
+2022/01/03 command 2022/01/03 record:	
+完成回归模型的训练，为生成数据做准备，一共训练18组模型数据的组合，其中表现较好的如下
+SPKU2 autodock
+cls_hidden_dims = [1024,512,256], batch_size = 128, train_epoch = 200, LR = 0.001, CNN+GIN
+3.94, 4.08
+cls_hidden_dims = [1024,512,256], batch_size = 64, train_epoch = 100, LR = 0.001, CNN+GIN
+3.84, 4.04
+cls_hidden_dims = [128,64,32], batch_size = 64, train_epoch = 200, LR = 0.001,CNN+GIN
+3.98, 4.16
+cls_hidden_dims = [1024,512,256], batch_size = 64, train_epoch = 200, LR = 0.001,CNN+GIN
+3.79, 3.979  ??? 这个出结果存疑
+
+
+cls_hidden_dims = [1024,512,256], batch_size = 64, train_epoch = 200, LR = 0.001,Prism+GIN
+4.89, 4.887
+cls_hidden_dims = [1024,512,256], batch_size = 64, train_epoch = 100, LR = 0.001,CNN+CNN
+3.46, 3.987
+cls_hidden_dims = [512,256], batch_size = 64, train_epoch = 200, LR = 0.001,CNN+CNN, 32,64,4,6
+3.02,3.92
+cls_hidden_dims = [128,64], batch_size = 64, train_epoch = 200, LR = 0.001,CNN+CNN, 32,64,4,6
+3.20, 3.95 
+
+SPKU2 DOCK6
+cls_hidden_dims = [1024,512,256], batch_size = 64, train_epoch = 100, LR = 0.001, CNN+GIN
+5.53, 4.895
+
+SPKU autodock
+cls_hidden_dims = [1024,512,256], batch_size = 64, train_epoch = 200, LR = 0.001,CNN+GIN
+3.58, 3.92
+
+#######################################
+2022/01/04 command 2022/01/04 record:
+prism_GIN测试，总体上表现不行，RMSD值普遍变大
+CNN_CNN测试，总体上表现都优，但是出现比较严重的过拟合现象，目前通过减少layer层和结点数小幅度地降低了过拟合程度，同时整体效应也有提升
+
+life_science dgl ———— 一个封装好的用于drug特征提取的图神经网络模型
+
+已经将multiply过程改成了transformer过程，计算过程比较复杂，大致时间15min一个epoch
+模型性能过拟合严重，且效果很差
+
+后续需要做的工作：
+	其一是CNN_CNN的互学习的模型
+	其二是multiply的过程考虑更复杂的矩阵乘法，参考CPI中的transformer的attention类
+	其三是脚本化运行文件
+	其四是生成器由于样本划分问题出现的偏好性严重，如何修正，对于docking结果的使用，如何构建可以区分native和非native的模型
+		
+
+46.A guide to machine learning for biologists
+review 机器学习以及深度学习在生物研究领域的一些入门级手册，包含一些重要的概念、常用的方法等
+
+#######################################
+2022/01/05 command 2022/01/05 record:
+基于互信息理论的CNN模型
+在两个CNN之间交互特征信息，效果很差
+
+基于矩阵乘法以及互信息的multiply过程
+
+解决pose中小分子和RNA sequence之间的关系固化问题，
+	其一，针对pose加入RNAmigos的流程来抽提出RNA的pocket信息，并采用图卷积的形式
+	其二，计算native到这些sequence之间的距离，并用这个距离和native到pose ligand之间的RMSD两个值来衡量二者的关系，并学习这种关系
+	其三，产生的所有pose里面找RMSD的最小最大值，分别来作为正负样本
+	其四，虚拟生成不符合正确pocket的pose，并由此产生负样本
+
+计算native到这些sequence之间的距离，采取的策略是，drug的重心到sequence所有原子的距离的中位数。
+主要分为两步，找出sequence在原pdb文件中的residue位置，
+依据ligand所在的链搜索这些sequence对应的所有原子，得到原子列表，并且计算ligand的原子的坐标均值
+计算ligand重心(坐标均值)到这些列表中原子的距离，排序取中位数。
+
+41.ML-DTI: Mutual Learning Mechanism for Interpretable Drug−Target Interaction Prediction
+method 采用互学习的方式进行蛋白小分子的DL模型构建
+	在特征提取层中，通过一些矩阵乘法，交互小分子和蛋白的特征，达到二者进行interaction的目的，
+	(遗憾的是目前在RNA，小分子上的表现并没有仅在最后交互一次的效果好)
+
+#######################################
+2022/01/06 command 2022/01/06 record:
+实现所有PDB文件的距离计算，获取所有distance
+
+加入distance的回归模型的表现依旧不是很出色，而且同样存在严重的过拟合现象。
+
+sed -e '/error/d' dock6_results_extend_ss.txt | sed -e '/wrong/d' > dock6_results_extend_ss_clean.txt
+
+awk '{print $3 "\t" $4 "\t" $5 "\t" $6 "\t" $7}' dock6_results_extend_ss_clean.txt | sort | uniq | awk '$2!~"NNNNNN"{print $0}' | sort | uniq | awk '$3!~"------"{print $0}' | sort | uniq > dock6_results_extend_ss_clean_revised.txt
+
+下一步要做的：
+	transferlearning 考虑可实施性，以及如何定义实施策略
+	找数据库
+	motif+小分子
+	图结构的方式解析RNA
+	docking结果按照affinity直接作cutoff
+
+#######################################
+2022/01/07 command 2022/01/07 record:
+数据库整合
+	RNAinter	1w+的interaction的信息，但不一定是binding信息，需要从strong field去筛选真正validation的
+	RBind		
+	RNALigand	通过二级结构motif search的方式找小分子的binding pocket。找出的这些序列具备二级motif的特征，可能不是一个创新点
+	SMMDB 感觉上还是以调控为主的数据库，主要是其中蛋白，DNA，RNA的数据杂糅在一起，难以区分
+
+
+
+#######################################
+2022/01/08 command 2022/01/08 record:
+comments on manuscript
+要点1：major comments & minor comments
+	给一些需要他大修的地方，举个例子，比如新颖性的问题，是不是别人做过了类似的工作。他再做这个工作和别人有什么不一样，突破在哪，如果没有的话要指出
+	小修的地方，举个例子，比如语法错误，画图没有用统一的scale，或者参考文献格式，缺失之类
+要点2：这个领域发展到了什么地步，我们还能做点什么突破性的工作
+要点3：参考前沿性文献，高引用率文献以及经典文献
+要点4: 一般审文章默认是一周的时间，可以和老师沟通
+
+#######################################
+2022/01/09 command 2022/01/09 record:
+28.A large-scale binding and functional map of human RNA-binding proteins
+discovery 采用多种实验技术方法获取RBP结合位点数据，进行整合性的图谱分析
+	实验技术包括CLIP-seq(eCLIP-seq), Knockdown RNA-seq, Immunofluorescence, IP, RNA Bind-N-seq, ChIP-seq, 
+	分析方法包括RBP peak聚类, RNA type correlation, RBP peak在实验技术间的平行比较, gene表达差异, RBP motif富集等
+	对于后续进行human RBP motif的分析具有重要指导意义，可以通过比较其中的结果(150 RBP motif enrichment)，发现一些不一样的东西
+	(此外，它们采用的motif是5-mer的，而我们采用的是7-mer)
+
+#######################################
+2022/01/10 command 2022/01/10 record:
+准备组会PPT
+整理数据以及图片，理清思路
+
+ 
+进行docking结果的筛选，根据weight划分bin，每个bin内设置不同的cutoff值用于筛选affinity
+原则是，在某个bin内，所有affinity低于cutoff值的小分子的pose的RMSD均小于8 A
+bin: [200,300,350,400,450,500,550,600]
+绘制weight的核密度曲线图，weight和affinity的关系图，affinity的核密度图，RMSD和affinity的关系散点图等
+脚本文件filter.py
+
+
+#######################################
+2022/01/11 command 2022/01/11 record:
+准备组会PPT，准备一些相关的图片
+
+#######################################
+2022/01/12 command 2022/01/12 record:
+组会汇报
+
+分类加回归
+先确定分类的大框架，然后回归具体值？？？
+
+
+case study:
+	Haniff H, et al., ACS central science, 2020
+	Sivaramakrishnan M, et al., Nature communications, 2017
+	Suresh B M, et al., PNAS, 2020
+	等36篇文献进行筛选
+
+目前表现最好的是最初始的模型，ROC, 0.81左右,大部分已有的case study能够预测得到
+加入8000个docking结果的模型ROC达到了0.88,但是对于之前预测正确的case无法预测准确，但是可以把另外一些case预测准确，总体性能不如初始
+
+#######################################
+2022/01/13 command 2022/01/13 record:
+目前进展
+筛选了9篇文献，其中两篇不包含有效信息
+筛选出了34个case study，包含smile,seq以及二级结构，同时有阴性和阳性样本
+
+表现结果喜忧参半
+其中TAR的表现比较出色，几乎完美的预测了，针对不同pocket的结果表现截然不同，说明模型在识别小分子药物和pocket上是有能力的
+但是在另外两组数据上表现较差，尤其是在一些阴性样本上，无法把这些阴性样本过滤掉，
+	(这些阴性样本和阳性样本之间是基于相同的小分子骨架做出的不同小分子，结构上可能比较类似，但是官能团和侧链完全不同)
+
+
+#######################################
+2022/01/14 command 2022/01/14 record:
+59.Targeting RNA with small molecules: from fundamental principles towards the clinic
+review	关于RNA以及靶向RNA的小分子研究的综述，总结了RNA结构，RNA构象变化，小分子靶向作用等多方面的信息
+	最关键的一点是提供了一个可靠的case study用于验证我们的模型，并且在模型上得到很好的验证
+
+小分子上修饰氨基酸
+基于RNA motif binding型小分子的complex构建复杂的分子机器
+xx.Precise small-molecule recognition of a toxic CUG RNA repeat expansion
+method	靶向RNA的小分子药物设计的文章
+	采取了小分子基团靶向r(CUG)n internal loop 的多次binding，来构建复杂的小分子机器，
+	通过疏水链链接多个靶向活性基团，加强binding作用的同时可以在疏水链上连如其他功能基团，如酶，荧光团等
+
+#######################################
+2022/01/15 command 2022/01/15 record:
+49.Deep Learning in Virtual Screening Recent Applications and Developments
+review	总结了deep leaning在蛋白质小分子binding的virtual screening方面的应用
+	包含大量的小分子特征表示模式以及编码方式
+	包含大量蛋白特征表示模式以及编码方式，其中部分可以借鉴到RNA上
+	最特殊的，包含一些interaction的特征表示模式和编码方式，这可能是另外一条可以探索的路径
+
+#######################################
+2022/01/16 command 2022/01/16 record:
+继续筛选了14篇文献，得到了49个case study，其中部分和之前有略微重复，但是小分子修饰和RNA链组成有一些差异
+
+#######################################
+2022/01/17 command 2022/01/17 record:
+本周待办事项:
+	加入更高级的loop结构，撰写脚本来识别这些结构
+	优化docking数据集。采取更可靠的方式过滤数据(affinity=a*weight+b => (affinity-b)/weight)
+	梯度反传达到的效果不明显，考虑均一化数值的策略以及attention机制等
+	pre-train 小分子，尽可能多地搜集小分子药物的信息
+
+56.Atlas of Subcellular RNA Localization Revealed by APEX-Seq
+technology	APEX-seq技术以及技术相关的验证，假说检验以及亚细胞器转录本图谱分析
+	通过比对
+	APEX-seq技术的原理是采用APEX酶的空间邻近催化作用，促使其定位附近的蛋白以及RNA被戴上标签
+	用APEX-seq技术定位到九种亚细胞器，并分析其中差异表达的基因，重点研究ERM和OMM两个亚细胞器定位，比较核内以及核输出RNA信号的差异，
+	通过通路抑制等多种形式，检测不同定位的RNA的功能导向以及来源
+
+#######################################
+2022/01/18 command 2022/01/18 record:
+年会
+
+#######################################
+2022/01/19 command 2022/01/19 record:
+搜集小分子的降维聚类方式，以及分类策略
+
+进行层次聚类，
+后续进行pca以及t-SEN降维
+
+明日考虑优化t-SEN以及安装rdkit, pandas, scipy包
+
+#######################################
+2022/01/20 command 2022/01/20 record:
+完成聚类，拿到PDB和FDA药物的聚类结果，
+结果表明，两种药物之间的差异比较大，这可能是特征学习出现问题的一个因素
+
+后续进行RNA sequence之间的聚类以及碱基分布计算
+
+总结：
+	RNA序列上基本上分布均匀，但是碱基上存在AG偏好性的情况
+	drug存在明显的类别分群，特征存在一定的差异
+
+p3.Coarse-Grained Protein Models and Their Applications
+review	关于粗粒度的蛋白模型的构建以及计算原理
+	主要是比较了全原子模型和粗粒度模型的差异，以及粗粒度模型的计算优势，理论基础
+	然后从三个角度解析粗粒度式的理论，分别是不同尺度的粒子衡量标准，力场的计算原则以及搜索策略
+	可以参考的点主要是，选取的embedding特征的尺度，可以考虑multi-scale modeling的特征输入
+
+#######################################
+2022/01/21 command 2022/01/21 record:
+p19.Structure-based de novo drug design using 3D deep generative models
+method	基于pocket优化的小分子生成模型
+	采取的策略是通过深度神经网络迭代生成pocket内的小分子，然后采用MC的方式评估，梯度反传，最终选取最优的生成小分子
+	其需要基于一个初始的pocket内的小分子来进行后续的延伸优化
+	
+	
+#######################################
+2022/01/23 command 2022/01/23 record:
+p20.Exploring Chemical Biosynthetic Design Space with TransformMinER
+method 小分子的底物相似性以及小分子的生化设计
+	核心在于基于小分子的反应中心构建原子层能级图谱，转化为编码形式，然后形成相似性编码
+	编码不依赖于小分子，依赖于小分子的反应中心，也就是互作或者发生化学反应的官能团
+	参考价值：小分子的设计，小分子binding模式的识别，小分子编码以及聚类，互作或者反应通路
+	
+	
+#######################################
+2022/01/24 command 2022/01/24 record:
+34.LEARNING TO SMILE(S)
+method 自然语言模型处理smile结构，构建sequence形式的语言分类器
+
+35.Automatic Chemical Design Using a Data Driven Continuous Representation of Molecules
+method 基于数据驱动的小分子生成器
+	作者使用一个VAE encoder将非连续的小分子smile结构转化成隐空间内连续的vector，然后再使用一个decoder编译回最近的smile
+	通过在隐空间内实施梯度下降，参数优化，空间检索，属性训练等操作，改变连续值然后达到小分子生成的效应。
+
+
+本周待办事项:
+	filter的多种形式
+	迭代式数据增强，用classification模型预测docking结果，将预测为正的数据用于数据增强，反复迭代直至AUC上升收敛
+
+#######################################
+2022/01/25 command 2022/01/25 record:
+complex尝试进行细致的分bin, bin大小如下: 
+	200,250,300,320,340,360,380,400,410,420,430,440,450,460,470,480,490,500,520,530,560,580,600,1500
+然后适当放宽松条件，仅需要90%的点满足RMSD小于8A
+
+线性拟合，然后进行平移线性规划，
+线性拟合的线性方程为
+		autodock：-0.00958617*weight-3.62902887
+		dock6：-0.06737226*weight-10.55905688
+	用于规划的线性方程为
+		autodock：-0.00958617*weight-4.18633501		100%的点满足RMSD小于8A
+		dock6：-0.06737226*weight-20.64192065		75%的点满足RMSD小于8A
+
+
+#######################################
+2022/02/07 command 2022/02/07 record:
+p4.Machine learning in chemoinformatics and drug discovery
+review 介绍一些相关的药物化学ML方法，偏综述，价值不高
+
+
+#######################################
+2022/02/11 command 2022/02/11 record:
+65.Molecular mimicry: Quantitative methods to study structural similarity between protein and RNA
+method 采用一种align-match-statistics的方式来计算大分子之间的similarity
+	虽然采用统计学方式计算大分子间的相似性很巧妙，但是个人对于计算过程依然存疑
+	考虑学习的部分，比如其先进行序列比对，然后进行结构重叠，最后计算保守性核苷酸和氨基酸距离的方式，
+
+#######################################
+2022/02/12 command 2022/02/12 record:
+p2.APIF A New Interaction Fingerprint Based on Atom Pairs and Its Application to Virtual Screening
+method 设计了一种基于pocket内结合模式生成的分子指纹APIF
+	基于六种原子pair(RD_DR,DR_HH,RD_HH,HH_HH,RD_RD,DR_DR)的组合形式计算pair之间的distance来划分成7x7种bits，产生6x7x7 bits的指纹窗口
+	其中鉴定receptor donor的成键机制是键距离在2.5A之内，而疏水键的成键距离在4.5A之内
+	其利处在于，能够用于鉴定我们已产生的docking的数据，生成大量的分子指纹用于识别其中的结合模式，然后找出模式与native相似的结果来用于后续实验
+
+p5.Structural Protein−Ligand Interaction Fingerprints (SPLIF) for Structure-Based Virtual Screening Method and Benchmark Study
+method 
+
+#######################################
+2022/02/16 command 2022/02/16 record:
+完成项目迁移，创建新环境
+
+环境调试
+motion correction的文献阅读
+
+#######################################
+2022/03/05 command 2022/03/05 record:
+282个native小分子和800个native的RNA分子对接结果，等你有空的时候，可以尝试之前用过的过滤标准，分别对AutoDock的结果和Dock6的结果进行过滤。
+一般来说，Dock6比Autodock具有更低的score（吉布斯自由能），所以需要分开设置cutoff。
+另外小分子对应的分子量我单独放在一个文件里面了，可以用shell命令进行统计并画bin：(如Dock6)
+
+awk -F “\t” ‘{print $2}’ extension_dock6_final.txt > dock6_ligand_name.txt
+
+for line in `cat dock6_ligand_name.txtt`
+do
+awk -v a="$line" ‘$1==a{print $0} ' mol_weight.txt >> dock6_ligand_name_weight.txt
+done
+
+针对原数据进行一定的数据变换，
+比如对称变换序列，反转，平移，相似变换等
+给网络增加难题
+
+#######################################
+2022/03/20 command 2022/03/20 record:
+你要是有空可以去/home/yuhan/APEXml/structure里面看一下，我写了个程序，用机器学习去区分RNA的定位，并用shap包去做了模型可解释性
+我现在机器学习做特征定义的时候，只用了6-mer的序列特征，
+你可以看看，能不能再加入6-mer中每个碱基的结构信息，
+这个结构信息可以根据0.25卡单链和双链，拼在6-mer后面，形成一个更大的字典，然后通过统计这个键出现的频率来做分类。
+简单来说就是多统计一个结构信息。你可以看一下我jupyter里目前的代码和结果，然后往里面加
+如果有不明白的可以问我，目前模型已经0.9的AUC了
+
+获取empiar上面的数据
+nohup wget -c ftp://ftp.ebi.ac.uk/empiar/world_availability/10542/data/* &
+
+#######################################
+2022/04/06 command 2022/04/06 record:
+复工第一天！
+可视化中间concat的特征层的信息区分程度，采取的策略是t-SNE降维可视化
+结果显示，存在一个比较明显的区分，但是中间混淆的数据依然存在，同时，在不平衡样本的情况下，不排除机器存在作弊的现象
+
+
+检测不同随机种子划分数据集的区分程度，随机种子随机性大，数据集基本上混合在一起，可能存在先验的train,test,valid之间的迁移性
+尝试根据划分的数据集直接区分训练集测试集和验证集，划分成10个类，按照7:2:1分为train,test,valid
+最终的分类效果比较差，说明这些类之间的迁移性存疑
+
+#######################################
+2022/04/07 command 2022/04/07 record:
+完成作业resnet的多分类问题，绘制loss曲线，ROC曲线，acc曲线，特征tsne分布，CNN梯度反传可视化，confusion matrix等图像
+
+##获取网络特征层的列表
+resnet18_feature_extractor=nn.Sequential(*list(resnet18_feature_extractor.children())[:-1])
+
+针对pre-mir21和小分子1、2、3进行docking，检查docking结果的好坏，
+结果显示，在总体趋势上，docking能够把结合力的强弱体现出来，但是无法甄别是否能binding这个问题，
+几乎针对每个小分子，他都可以binding上，而且binding的位点和实际的结合位点存在极大的空间差距
+
+#######################################
+2022/04/08 command 2022/04/08 record:
+完成作业小数据集的多分类问题，搭建基于数据量小的网络，尝试不同recipe来调整网络使得训练效果得到提升
+
+
+p19.Structure-based de novo drug design using 3D deep generative models
+methods 基于pocket优化的小分子生成模型
+	采取的策略是通过深度神经网络迭代生成pocket内的小分子，然后采用MC的方式评估，梯度反传，最终选取最优的生成小分子
+	同时针对生成的小分子，进行了一些相似性比较和官能团的探究
+
+#######################################
+2022/04/09 command 2022/04/09 record:
+RSVdb v2.0: an integrated database of transcriptome-wide conserved RNA structure and probing data
+database 一个基于测序数据、多组学数据、预测数据整合的转录组RNA结构数据
+	由于是更新的2.0版本的数据库，其中许多细节并没有详细介绍
+	相较于1.0版本，不再拘泥于原本的测序数据以及结构数据，而是加入了很多组学信息，比如共进化,G4,保守序列等
+	缺点依旧明显，整合程度不足，数据数量有限，没有任何创新性的地方，感觉就是在乔迁数据
+
+RSVdb: a comprehensive database of transcriptome RNA structure
+database: 一个基于DMS以及MaP-seq数据的转录组RNA结构数据
+	总结：不如一个完整pipeline的软件，可以动态获取信息
+
+
+#######################################
+2022/04/10 command 2022/04/10 record:
+完成作业针对半监督数据的多分类问题，搭建基于label和unlabel数据集的迭代训练器，其使用label的数据标记unlabel数据选取top作为伪label数据加入训练
+
+整理一些RNA 相关的数据库的文献，针对RSVdb已有的问题与存在的不足提出一些建议。
+
+
+#######################################
+2022/04/11 command 2022/04/11 record:
+整理相关RNAligand数据库内的motif
+
+RNA相关的研究如何开展的问题思考
+查阅相关原子层面的迁移学习，以及蛋白质和RNA相关的深度神经网络模型，并未得到较高价值的先例
+可能存在的问题————学习难度，且不探讨迁移的可行性，机器的负载程度和计算资源的消耗是否是实验室可以承担的
+				————时间成本高
+价值：直接串接蛋白质和RNA领域，具有极其重大的应用价值
+(基于序列的迁移或许比基于原子的迁移更有应用价值，考虑蛋白motif和RNA motif之间的迁移性和替代性，从RBP结合区域以及互补RNA进行考虑)
+
+
+
+#######################################
+2022/04/12 command 2022/04/12 record:
+针对小鼠的测序数据进行SNP的分析
+wget -c ftp://ftp-mouse.sanger.ac.uk/current_snps/mgp.v5.merged.snps_all.dbSNP142.vcf.gz
+perl SNPsplit_genome_preparation --vcf_file ../ref/mgp.v5.merged.snps_all.dbSNP142.vcf.gz --strain C57BL_6NJ --reference_genome ../ref/mm10_Gencode/
+perl SNPsplit --snp_file ../ref/mgp.v5.merged.snps_all.dbSNP142.vcf.gz ../data/DMSO_1_L20220311.fq.sorted.bam --single_end -o ../res/
+C57BL_6NJ: 雌鼠
+PWK_PhJ: 雄鼠
+
+
+SNP的coverage为0%，正在排除可能的问题，比如染色体标签不同，注释基因组不同，
+
+samtools view -h DMSO_1_L20220311.fq.sorted.bam| sed -e 's/chr//g' | less
+samtools view -b DMSO_1_L20220311.fq.sorted_re.sam > DMSO_1_L20220311.fq.sorted_re.bam
+
+尝试排查了上述两个因素，依然无法得到SNP coverage，需要重新考虑pipeline的构建
+
+
+半监督数据策略
+首先采用pre-trained的数据库来预训练模型，
+然后用模型来label那些unlabel的数据
+对unlabel数据的结果进行概率排序，选取最大概率的作为label后的结果
+用这些伪label的数据重新训练原来的数据集，
+然后重新加载这个训练的好的模型，在原label数据集上进行refine.
+
+
+#######################################
+2022/04/13 command 2022/04/13 record:
+整理了一下一些相关领域的文献，确定一些新的项目立意
+
+整理RNALigand数据库内的数据，
+编写从icshape数据到label好的sequence之间的pipeline
+主要流程如下:
+	shape数据切分，分成200bp的片段
+	每个片段单独预测结构
+	将shape值替换成结构点括号图
+	片段连接
+	滑窗获取31bp的数据
+	RNALigand run.pl预测是否是ligand的潜在靶点
+
+RNAstructure
+RNAshape
+RNAfold
+
+tar -zxvf ViennaRNA-2.5.0.tar.gz
+cd ViennaRNA-2.5.0
+{
+	./configure
+	make
+	sudo make install
+} or {
+	./configure --prefix=/data/zhangjiasheng/toolkits/ViennaRNA
+	make install
+}
+
+
+#######################################
+2022/04/14 command 2022/04/14 record:
+
+晚间讨论个人的课题开展方向：
+一.基于原子层面的RNA结构或者binding模型的搭建，主要从ARES尝试开始
+二.基于alphaFold，学习其思路来预测RNA结构
+三.新冠序列以及结构数据的搜集，寻找conserve的结构或者共进化的结构，综合组学分析
+
+
+下一步要做的事情：
+1.RNAligand pipeline的搭建
+2.RNAligand药物库中小分子smile的补齐以及校正
+3.zhaokang师姐的SNP数据分析
+4.RNAmigos中所用到的非常规互补配对的数据库以及可能存在的计算pipeline
+5.新冠序列以及结构数据的搜集，寻找conserve的结构或者共进化的结构
+6.ARES可以尝试使用
+
+#######################################
+2022/04/15 command 2022/04/15 record:
+Fold inputfile.fasta outputfile.ct -sh file.shape
+
+撰写shape数据到二级结构的pipeline
+首先拿到对应的shape文件，
+依据genome和transcriptome获取序列文件，generate.py
+依据组合序列shape文件做文件切割，没200bp作为一个输出，输出fasta文件和shape文件
+Fold进行二级结构预测
+组合seq和二级结构
+滑窗生成31 bp的序列加结构
+RNALigand motif检索并获取对应的drug
+
+SNP位点的检测，重新下载对应的Genome数据进行mapping然后计算
+
+#######################################
+2022/04/16 command 2022/04/16 record:
+检索PDB和Rbind库内的小分子药物，
+从pubchem获取它们的smiles，然后在RDkit包内验证smiles的合理性，并转化为RDkit识别的smiles
+R-BIND数据库的药物smile更新
+
+77.R-BIND An Interactive Database for Exploring and Developing RNA-Targeted Chemical Probes
+database 基于motif形式的RNA小分子结合数据库
+	作者将小分子与RNA的结合模式类比为RBP，仅仅考虑RNA的一级结构和二级结构，构建RNA motif的数据库
+	作者从target non-rRNA的化学probe中构建小分子库，
+	最后作者针对target的RNA进行数据分析，总结这些小分子target的包含二级结构的化学特征，
+	
+
+ls -lt /tmp/pymp-*
+检测文件详细信息并统计大小
+
+#######################################
+2022/04/17 command 2022/04/17 record:
+由于考虑到数据量比较大，可以进行多线程式的部署，
+同时为了后续进行筛选的简易，我们可以输出score，方便用于过滤分子
+
+71.Small molecule targeting of biologically relevant RNA tertiary and quaternary structures
+review 总结小分子靶向的RNA三级结构和四级结构的一些研究、实验方法、以及主要功能
+	文中的RNA三级结构包括RNA triple helices, G-quadruplexes (G4s), pseudoknots, coaxial stacking, and kissing loops
+	而四级结构则是指RNA-RNA, RNA-DNA, RNA-Protein的complex
+
+SNP正确构建流程:
+	依据对应genome进行SNP_prepare, 获取mask-N的新的genome
+	在新的genome上进行mapping，获取bam文件
+	SNPsplit计算SNP位点
+
+#######################################
+2022/04/18 command 2022/04/18 record:
+scp *.fq.sorted.bam yuhan@20.20.91.14:/home/yuhan/zhaokang_SNP/data_new/{strain_name_folder}/
+perl SNPsplit --snp_file ../ref/all_SNPs_PWK_PhJ_GRCm38.txt.gz ../data_new/PWK_PhJ/NAI_2_L20220311.fq.sorted.bam --single_end -o ../res/PWK_PhJ/
+
+下载SARS-CoV-2相关的数据，包括shape数据，genome数据，以及冠状病毒测序数据
+
+整个小分子的smile获取流程如下：
+	首先针对原本库内(文本库)的小分子的names进行遍历uniq操作
+	按照R-BIND库的文本构建一个name到smile的索引库，
+	然后R-BIND库内的小分子各自获取对应的smile结构（注意两个库中的name会存在一些“ _,' ”的差别
+	PDB库的小分子name按空格分隔，形成一个text，在PDB网页的download ligand栏中输入，获取ligand的sdf文件
+	sdf文件中存在一行OPENEYE_ISO_SMILES,
+	按照name索引文件，然后检索即可得到smile
+	最后将这个name-smile的键值表在rdkit包中进行校正
+	
+rdkit针对小分子的smile进行校正
+
+
+#######################################
+2022/04/19 command 2022/04/19 record:
+协同过滤算法
+基于similarity的加权计算算法
+	mean_user_data = data.mean(axis = 1 )
+    data_diff = (data - mean_user_data[:, np.newaxis])
+    pred = mean_user_data[:, np.newaxis] + similarity.dot(data_diff) / np.array([np.abs(similarity).sum(axis=1)]).T 
+
+基于梯度下降的矩阵分解算法
+
+
+
+
+
+
+
+
+
