@@ -1,0 +1,1513 @@
+   1  U . A.U5      0.015  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,cap-donor
+   2  G . A.G6      0.011  syn,~C3'-endo,BI,non-pair-contact,ss-non-loop,cap-acceptor,phosphate,splayed-apart
+   3  G . A.G7      0.008  anti,non-canonical,non-pair-contact,helix-end,ss-non-loop,splayed-apart
+   4  A . A.A8      0.007  anti,~C2'-endo,BII,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+   5  G ( A.G9      0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,phosphate
+   6  A ( A.A10     0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   7  G ( A.G11     0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+   8  U ( A.U12     0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor
+   9  U . A.U13     0.009  anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,splayed-apart
+  10  U . A.U14     0.010  u-turn,anti,~C3'-endo,BI,non-stack,non-pair-contact,hairpin-loop,cap-acceptor,phosphate,splayed-apart
+  11  G . A.G15     0.008  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate
+  12  A . A.A16     0.008  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,ribose-zipper,cap-donor,phosphate
+  13  U . A.U17     0.005  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,ribose-zipper,phosphate
+  14  C . A.C18     0.009  anti,~C3'-endo,BI,non-pair-contact,multiplet,hairpin-loop,phosphate
+  15  C . A.C19     0.008  anti,~C3'-endo,BI,non-pair-contact,multiplet,hairpin-loop,phosphate
+  16  U . A.U20     0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,cap-donor
+  17  G . A.G21     0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop,phosphate
+  18  G ) A.G22     0.013  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor,cap-donor,phosphate
+  19  C ) A.C23     0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,phosphate
+  20  U ) A.U24     0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+  21  C ) A.C25     0.004  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet
+  22  A . A.A26     0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  23  G ( A.G27     0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  24  G ( A.G28     0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  25  G ( A.G29     0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  26  U ( A.U30     0.007  anti,~C2'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,splayed-apart
+  27  G . A.G31     0.012  turn,anti,~C2'-endo,non-pair-contact,bulge,phosphate,splayed-apart
+  28  A ( A.A32     0.005  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate,splayed-apart
+  29  A ( A.A33     0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  30  C ( A.C34     0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  31  G ( A.G35     0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  32  C ( A.C36     0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+  33  U . A.U37     0.014  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,phosphate
+  34  G . A.G38     0.012  anti,~C3'-endo,non-pair-contact,junction-loop,cap-donor
+  35  G ( A.G39     0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop
+  36  C ( A.C40     0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  37  G ( A.G41     0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+  38  G ( A.G42     0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+  39  C ( A.C43     0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  40  G ( A.G44     0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+  41  U ( A.U45     0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+  42  G ( A.G46     0.007  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,splayed-apart
+  43  C ( A.C47     0.012  turn,anti,~C2'-endo,BII,isolated-canonical,non-pair-contact,helix,internal-loop,junction-loop,cap-donor,phosphate,splayed-apart
+  44  C . A.C48     0.008  turn,anti,~C2'-endo,non-pair-contact,internal-loop,phosphate,splayed-apart
+  45  U . A.U49     0.006  anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop,phosphate
+  46  A . A.A50     0.009  anti,~C2'-endo,non-pair-contact,internal-loop,splayed-apart
+  47  A . A.A51     0.011  turn,anti,non-canonical,non-pair-contact,multiplet,internal-loop,A-minor,splayed-apart
+  48  G ( A.G52     0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop,phosphate,splayed-apart
+  49  A ( A.A53     0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  50  C ( A.C54     0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,multiplet,bulge
+  51  A . A.A55     0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,bulge,phosphate
+  52  U ( A.U56     0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,bulge
+  53  G ( A.G57     0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  54  C ( A.C58     0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,junction-loop
+  55  A . A.A59     0.005  anti,~C3'-endo,non-pair-contact,junction-loop,splayed-apart
+  56  A . A.A60     0.010  anti,~C2'-endo,non-stack,non-canonical,non-pair-contact,helix-end,junction-loop,phosphate,splayed-apart
+  57  G ( A.G61     0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+  58  U ( A.U62     0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+  59  C ( A.C63     0.007  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+  60  G . A.G64     0.014  turn,anti,~C2'-endo,non-stack,non-canonical,non-pair-contact,multiplet,bulge,phosphate,splayed-apart
+  61  U . A.U65     0.003  turn,anti,~C2'-endo,non-canonical,non-pair-contact,bulge,cap-acceptor,splayed-apart
+  62  G ( A.G66     0.005  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor,ribose-zipper,cap-donor,splayed-apart
+  63  C ( A.C67     0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop,A-minor,ribose-zipper
+  64  G . A.G68     0.014  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+  65  G ( A.G69     0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  66  G ( A.G70     0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  67  C ( A.C73     0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  68  C ( A.C74     0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  69  G ( A.G75     0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  70  C ( A.C76     0.020  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  71  G ( A.G77     0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  72  G ( A.G78     0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  73  G ( A.G79     0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  74  G ( A.G80     0.008  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+  75  U . A.U81     0.006  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+  76  U . A.U82     0.007  turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+  77  U . A.U83     0.007  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+  78  U . A.U84     0.004  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+  79  A . A.A88     0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop
+  80  C ) A.C89     0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+  81  U ) A.U90     0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  82  C ) A.C91     0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  83  C ) A.C92     0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  84  G ) A.G93     0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  85  U ) A.U95     0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  86  G ) A.G96     0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  87  G ) A.G97     0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  88  U ) A.U98     0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  89  C ) A.C99     0.008  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  90  A . A.A101    0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+  91  G ) A.G102    0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop,A-minor,phosphate
+  92  C ) A.C103    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor,phosphate
+  93  G ) A.G104    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+  94  G ) A.G105    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  95  C ) A.C106    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+  96  G . A.G107    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,junction-loop,cap-acceptor,phosphate
+  97  G . A.G108    0.029  syn,~C3'-endo,non-pair-contact,junction-loop,cap-donor,phosphate
+  98  A . A.A109    0.013  turn,syn,~C2'-endo,non-canonical,non-pair-contact,helix-end,junction-loop,phosphate
+  99  C . A.C110    0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,junction-loop
+ 100  G . A.G111    0.014  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,junction-loop
+ 101  G . A.G112    0.017  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,ribose-zipper
+ 102  G ( A.G113    0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,ribose-zipper
+ 103  U ( A.U114    0.014  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 104  G ( A.G115    0.008  anti,~C2'-endo,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop
+ 105  A . A.A116    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,junction-loop,A-minor,phosphate
+ 106  G . A.G117    0.017  anti,~C3'-endo,BI,non-canonical,non-pair-contact,junction-loop,phosphate
+ 107  U . A.U118    0.007  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+ 108  A . A.A119    0.010  turn,anti,non-canonical,non-pair-contact,helix-end,junction-loop,cap-donor,phosphate
+ 109  A . A.A120    0.010  anti,~C3'-endo,BI,non-pair-contact,junction-loop,cap-acceptor,phosphate,splayed-apart
+ 110  C . A.C121    0.006  turn,anti,~C2'-endo,BII,non-canonical,non-pair-contact,multiplet,junction-loop,splayed-apart
+ 111  G ( A.G122    0.012  turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop,phosphate
+ 112  C ( A.C123    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 113  G ( A.G124    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 114  U ( A.U125    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+ 115  G ( A.G126    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 116  G ( A.G127    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 117  G ( A.G128    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 118  U ( A.U129    0.005  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor,phosphate,splayed-apart
+ 119  G . A.G129^A  0.006  turn,anti,non-canonical,non-pair-contact,helix-end,bulge,cap-acceptor,splayed-apart
+ 120  A . A.A130    0.006  anti,~C2'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge,A-minor,cap-donor,phosphate,splayed-apart
+ 121  C ( A.C131    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,A-minor,phosphate
+ 122  C ( A.C132    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+ 123  U . A.U133    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+ 124  A . A.A134    0.006  anti,~C3'-endo,BI,non-pair-contact,internal-loop,cap-donor
+ 125  C . A.C135    0.004  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+ 126  C ( A.C136    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 127  C ( A.C137    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 128  G ( A.G138    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 129  G ( A.G139    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 130  A ( A.A140    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+ 131  A ( A.A141    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 132  G ( A.G142    0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor
+ 133  A . A.A143    0.007  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,junction-loop,A-minor,cap-donor,splayed-apart
+ 134  G ( A.G144    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,splayed-apart
+ 135  G ( A.G145    0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 136  G ( A.G146    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 137  G ( A.G147    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 138  G ( A.G148    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 139  A . A.A149    0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+ 140  C . A.C150    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 141  A . A.A151    0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor
+ 142  A . A.A152    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+ 143  C ( A.C153    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 144  C ( A.C154    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 145  C ( A.C155    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 146  G ( A.G156    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 147  G ( A.G157    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 148  G ( A.G158    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+ 149  G . A.G159    0.005  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,splayed-apart
+ 150  A . A.A160    0.003  turn,u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,cap-donor,cap-acceptor,splayed-apart
+ 151  A . A.A161    0.005  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,A-minor,cap-donor,phosphate
+ 152  A . A.A162    0.009  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,phosphate
+ 153  C ) A.C163    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,cap-donor
+ 154  U ) A.U164    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 155  C ) A.C165    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 156  G ) A.G166    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 157  G ) A.G167    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 158  G ) A.G168    0.016  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 159  C . A.C169    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+ 160  U . A.U170    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+ 161  A . A.A171    0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,A-minor,ribose-zipper
+ 162  A . A.A172    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor,ribose-zipper,splayed-apart
+ 163  U . A.U173    0.008  turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,internal-loop,cap-donor,cap-acceptor,phosphate,splayed-apart
+ 164  C ) A.C174    0.004  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,splayed-apart
+ 165  C ) A.C175    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 166  C ) A.C176    0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 167  C ) A.C177    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 168  C ) A.C178    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+ 169  A . A.A179    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop
+ 170  U . A.U180    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop
+ 171  G . A.G181    0.010  anti,~C2'-endo,non-canonical,non-pair-contact,helix,multiplet,junction-loop
+ 172  U . A.U182    0.006  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate
+ 173  G ( A.G183    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+ 174  G ( A.G184    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 175  A ( A.A185    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 176  C ( A.C186    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 177  C . A.C187    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 178  C ( A.C188    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 179  G ( A.G189    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 180  C ( A.C190    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 181  C ( A.C190^A  0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 182  C ( A.C190^B  0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+ 183  C . A.C190^C  0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop
+ 184  U . A.U190^D  0.005  anti,~C2'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,splayed-apart
+ 185  U . A.U190^E  0.005  anti,~C2'-endo,non-pair-contact,hairpin-loop,cap-acceptor,phosphate,splayed-apart
+ 186  G . A.G190^F  0.009  turn,anti,~C2'-endo,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+ 187  G ) A.G190^G  0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,cap-donor,splayed-apart
+ 188  G ) A.G190^H  0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 189  G ) A.G190^I  0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 190  U ) A.U190^J  0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 191  G ) A.G190^K  0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 192  U . A.U190^L  0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 193  G ) A.G191    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 194  U ) A.U192    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 195  C ) A.C193    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 196  C ) A.C194    0.005  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+ 197  A . A.A195    0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,A-minor,ribose-zipper,phosphate
+ 198  A . A.A196    0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,junction-loop,A-minor,ribose-zipper,cap-acceptor,splayed-apart
+ 199  A . A.A197    0.025  anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,A-minor,cap-acceptor,splayed-apart
+ 200  G ( A.G198    0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,phosphate
+ 201  G ( A.G199    0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack
+ 202  G ( A.G200    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,cap-donor
+ 203  C ( A.C201    0.008  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop,splayed-apart
+ 204  U . A.U202    0.006  turn,anti,~C3'-endo,BII,non-stack,non-pair-contact,hairpin-loop,splayed-apart
+ 205  U . A.U203    0.013  anti,BII,non-pair-contact,hairpin-loop,splayed-apart
+ 206  U . A.U204    0.004  turn,anti,~C3'-endo,non-stack,non-pair-contact,hairpin-loop
+ 207  G ) A.G216    0.018  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop
+ 208  C ) A.C217    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 209  C ) A.C218    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 210  C ) A.C219    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop
+ 211  G . A.G220    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,A-minor
+ 212  C ) A.C221    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,ribose-zipper,cap-donor
+ 213  U ) A.U222    0.013  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper
+ 214  U ) A.U223    0.005  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,phosphate
+ 215  C ) A.C224    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 216  C ) A.C225    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 217  G ) A.G226    0.016  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 218  G ) A.G227    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 219  A . A.A228    0.007  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+ 220  U . A.U229    0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 221  G ) A.G230    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 222  G ) A.G231    0.017  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,A-minor
+ 223  G ) A.G232    0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor
+ 224  C ) A.C233    0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 225  C ) A.C234    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 226  C ) A.C235    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 227  G ) A.G236    0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,phosphate
+ 228  C ) A.C237    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 229  G ) A.G238    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 230  U ) A.U239    0.010  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop,splayed-apart
+ 231  C ( A.C240    0.008  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop,splayed-apart
+ 232  C ( A.C241    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 233  C ( A.C242    0.009  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop
+ 234  A . A.A243    0.008  turn,k-turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix,multiplet,internal-loop,splayed-apart
+ 235  U . A.U244    0.005  turn,k-turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate,splayed-apart
+ 236  C . A.C245    0.004  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate,splayed-apart
+ 237  A . A.A246    0.007  k-turn,anti,~C2'-endo,BII,non-canonical,non-pair-contact,helix-end,internal-loop
+ 238  G ( A.G247    0.003  k-turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,internal-loop,A-minor,phosphate
+ 239  C ( A.C248    0.010  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 240  U ( A.U249    0.005  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,bulge
+ 241  A . A.A250    0.014  anti,~C3'-endo,non-pair-contact,bulge
+ 242  G . A.G251    0.028  turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,bulge,phosphate
+ 243  U ( A.U252    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,bulge
+ 244  U ( A.U253    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+ 245  G ( A.G254    0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,phosphate
+ 246  G ( A.G255    0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,phosphate
+ 247  U ( A.U256    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+ 248  G ( A.G257    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 249  G ( A.G258    0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 250  G ( A.G259    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop,phosphate
+ 251  G . A.G260    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+ 252  U . A.U261    0.010  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-acceptor
+ 253  A . A.A262    0.018  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,A-minor
+ 254  A . A.A263    0.014  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,cap-donor,phosphate
+ 255  U . A.U264    0.006  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate
+ 256  G . A.G265    0.017  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+ 257  G . A.G266    0.022  turn,u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,hairpin-loop,phosphate,splayed-apart
+ 258  C ) A.C267    0.007  turn,u-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop,phosphate
+ 259  C ) A.C268    0.004  u-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+ 260  C ) A.C269    0.005  u-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+ 261  A ) A.A270    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 262  C ) A.C271    0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet
+ 263  C ) A.C272    0.002  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet
+ 264  A ) A.A273    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 265  A ) A.A274    0.019  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end,bulge
+ 266  G ) A.G275    0.013  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,bulge
+ 267  G ) A.G276    0.009  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+ 268  C ) A.C277    0.011  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,multiplet,internal-loop,A-minor,phosphate
+ 269  G . A.G278    0.007  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,internal-loop,phosphate
+ 270  A . A.A279    0.015  turn,k-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,internal-loop,cap-donor,phosphate,splayed-apart
+ 271  C . A.C280    0.010  turn,k-turn,anti,~C2'-endo,non-pair-contact,internal-loop,phosphate,splayed-apart
+ 272  G . A.G281    0.006  k-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,internal-loop,cap-acceptor,splayed-apart
+ 273  A . A.A282    0.008  k-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor,phosphate
+ 274  C . A.C283    0.004  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 275  G ) A.G284    0.013  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop
+ 276  G ) A.G285    0.006  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 277  G ) A.G286    0.010  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop
+ 278  U . A.U287    0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,junction-loop
+ 279  A . A.A288    0.011  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+ 280  G ( A.G289    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+ 281  C ( A.C290    0.023  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 282  C ( A.C291    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 283  G ( A.G292    0.014  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor,phosphate
+ 284  G ( A.G293    0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 285  U ( A.U294    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 286  C ( A.C295    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 287  U ( A.U296    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate
+ 288  G . A.G297    0.025  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,cap-acceptor,phosphate,splayed-apart
+ 289  A . A.A298    0.009  turn,u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,hairpin-loop,splayed-apart
+ 290  G . A.G299    0.012  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop,cap-donor,phosphate
+ 291  A . A.A300    0.013  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop,phosphate
+ 292  G ) A.G301    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+ 293  G ) A.G302    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 294  A ) A.A303    0.017  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 295  U ) A.U304    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 296  G . A.G305    0.016  anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,bulge
+ 297  G . A.G306    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,bulge
+ 298  C . A.C307    0.003  anti,~C3'-endo,non-pair-contact,bulge
+ 299  C ) A.C308    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor
+ 300  G ) A.G309    0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 301  G ) A.G310    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 302  C ) A.C311    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 303  C ) A.C312    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop
+ 304  A ) A.A313    0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 305  C ) A.C314    0.004  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor
+ 306  A . A.A315    0.008  anti,~C2'-endo,non-canonical,non-pair-contact,helix,junction-loop,cap-acceptor,splayed-apart
+ 307  G ( A.G316    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate,splayed-apart
+ 308  G ( A.G317    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 309  G ( A.G318    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor
+ 310  G ( A.G319    0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 311  C ( A.C320    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+ 312  A . A.A321    0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 313  C . A.C322    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop,phosphate
+ 314  U . A.U323    0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop,phosphate
+ 315  G . A.G324    0.012  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,phosphate
+ 316  A . A.A325    0.009  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-acceptor,phosphate
+ 317  G . A.G326    0.009  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,phosphate
+ 318  A . A.A327    0.007  u-turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix,hairpin-loop,phosphate,splayed-apart
+ 319  C . A.C328    0.007  turn,non-pair-contact,hairpin-loop,splayed-apart
+ 320  A . A.A329    0.013  anti,non-canonical,non-pair-contact,helix,hairpin-loop,phosphate,splayed-apart
+ 321  C . A.C330    0.008  anti,~C3'-endo,non-pair-contact,hairpin-loop,cap-donor,phosphate,splayed-apart
+ 322  G . A.G331    0.007  turn,anti,~C3'-endo,non-stack,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate,splayed-apart
+ 323  G . A.G332    0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop,splayed-apart
+ 324  G ) A.G333    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+ 325  C ) A.C334    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper
+ 326  C ) A.C335    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor,ribose-zipper
+ 327  C ) A.C336    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 328  C ) A.C337    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 329  A . A.A338    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 330  C ( A.C339    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 331  U ( A.U340    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 332  C ( A.C341    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 333  C ( A.C342    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor
+ 334  U . A.U343    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-donor,splayed-apart
+ 335  A . A.A344    0.013  turn,anti,~C3'-endo,non-pair-contact,hairpin-loop,cap-acceptor,splayed-apart
+ 336  C . A.C345    0.005  turn,anti,~C2'-endo,non-pair-contact,hairpin-loop,cap-donor,phosphate,splayed-apart
+ 337  G . A.G346    0.004  turn,syn,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+ 338  G ) A.G347    0.004  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor
+ 339  G ) A.G348    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 340  A ) A.A349    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 341  G ) A.G350    0.010  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 342  G . A.G351    0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix,junction-loop,splayed-apart
+ 343  C . A.C352    0.006  turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,phosphate,splayed-apart
+ 344  A . A.A353    0.011  turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,A-minor,ribose-zipper,phosphate,splayed-apart
+ 345  G ) A.G354    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,junction-loop,ribose-zipper,phosphate,splayed-apart
+ 346  C ) A.C355    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 347  A ) A.A356    0.020  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,bulge
+ 348  G ) A.G357    0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,multiplet,bulge,phosphate
+ 349  U ) A.U358    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 350  U ) A.U359    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop
+ 351  A . A.A360    0.003  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+ 352  G ) A.G361    0.011  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop,junction-loop
+ 353  G . A.G362    0.008  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,cap-acceptor,phosphate
+ 354  A . A.A363    0.007  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate
+ 355  A . A.A364    0.009  u-turn,anti,~C3'-endo,BI,non-pair-contact,junction-loop,cap-donor,phosphate
+ 356  U . A.U365    0.006  u-turn,syn,BII,non-canonical,non-pair-contact,multiplet,junction-loop,cap-acceptor,phosphate,splayed-apart
+ 357  C . A.C366    0.007  anti,~C2'-endo,non-canonical,non-pair-contact,helix,junction-loop,splayed-apart
+ 358  U ( A.U367    0.005  anti,~C2'-endo,isolated-canonical,non-pair-contact,helix,bulge,junction-loop,phosphate,splayed-apart
+ 359  U . A.U368    0.004  turn,anti,~C3'-endo,non-stack,non-canonical,non-pair-contact,helix-end,multiplet,bulge,splayed-apart
+ 360  C ( A.C369    0.005  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate,splayed-apart
+ 361  C ( A.C370    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 362  G ( A.G371    0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor
+ 363  C . A.C372    0.012  turn,anti,non-canonical,non-pair-contact,multiplet,bulge
+ 364  A . A.A373    0.007  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,bulge,A-minor,phosphate
+ 365  A . A.A374    0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge,A-minor,phosphate
+ 366  U ( A.U375    0.008  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,multiplet,bulge,phosphate
+ 367  G ( A.G376    0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+ 368  G ( A.G377    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 369  G ( A.G378    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 370  C ( A.C379    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate
+ 371  G . A.G380    0.018  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+ 372  C . A.C381    0.012  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate
+ 373  A . A.A382    0.007  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,phosphate
+ 374  A . A.A383    0.006  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,phosphate
+ 375  G ) A.G384    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,cap-donor
+ 376  C ) A.C385    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 377  C ) A.C386    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 378  U ) A.U387    0.014  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,splayed-apart
+ 379  G . A.G388    0.003  turn,anti,~C2'-endo,non-stack,non-pair-contact,bulge,phosphate,splayed-apart
+ 380  A ) A.A389    0.007  turn,anti,~C3'-endo,BI,isolated-canonical,non-canonical,non-pair-contact,helix,multiplet,bulge,cap-acceptor,phosphate,splayed-apart
+ 381  C ) A.C390    0.005  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor,cap-donor
+ 382  G ) A.G391    0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,phosphate
+ 383  G ) A.G392    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+ 384  A ) A.A393    0.011  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,bulge,junction-loop,phosphate
+ 385  G . A.G394    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 386  C ) A.C395    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 387  G ) A.G396    0.014  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,splayed-apart
+ 388  A . A.A397    0.008  turn,syn,~C3'-endo,BII,non-canonical,non-pair-contact,helix-end,multiplet,bulge,phosphate,splayed-apart
+ 389  C ) A.C398    0.006  turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate,splayed-apart
+ 390  G ) A.G399    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 391  C ) A.C400    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper,phosphate
+ 392  C ) A.C401    0.017  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper,phosphate
+ 393  G ) A.G402    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 394  C ) A.C403    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop,phosphate
+ 395  U . A.U404    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,junction-loop,phosphate
+ 396  U . A.U405    0.008  turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,junction-loop,phosphate,splayed-apart
+ 397  G ( A.G406    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,splayed-apart
+ 398  G ( A.G407    0.008  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 399  A ( A.A408    0.006  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 400  G ( A.G409    0.008  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+ 401  G . A.G410    0.005  k-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 402  A . A.A411    0.005  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate,splayed-apart
+ 403  A . A.A412    0.004  turn,k-turn,anti,~C3'-endo,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+ 404  G . A.G413    0.013  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate,splayed-apart
+ 405  A . A.A414    0.004  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,phosphate,splayed-apart
+ 406  A . A.A415    0.005  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop
+ 407  G ( A.G416    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 408  C ( A.C417    0.003  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 409  C ( A.C418    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 410  C ( A.C419    0.005  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate
+ 411  U . A.U420    0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+ 412  U . A.U421    0.004  turn,anti,~C3'-endo,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+ 413  C . A.C422    0.006  turn,anti,~C2'-endo,non-pair-contact,hairpin-loop,cap-donor,phosphate,splayed-apart
+ 414  G . A.G423    0.006  turn,syn,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+ 415  G ) A.G424    0.009  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+ 416  G ) A.G425    0.005  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 417  G ) A.G426    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 418  U ) A.U427    0.005  k-turn,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+ 419  G . A.G428    0.010  k-turn,anti,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+ 420  U . A.U429    0.006  turn,k-turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 421  A . A.A430    0.004  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+ 422  A . A.A431    0.002  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 423  A . A.A432    0.009  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 424  C ) A.C433    0.003  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 425  U ) A.U434    0.005  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 426  C ) A.C435    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 427  C ) A.C436    0.005  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 428  U . A.U437    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 429  G . A.G438    0.007  anti,~C3'-endo,non-canonical,non-pair-contact,helix,junction-loop
+ 430  A . A.A439    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+ 431  A . A.A440    0.006  anti,~C3'-endo,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+ 432  C ( A.C442    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 433  C ( A.C443    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 434  C ( A.C444    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 435  G ( A.G445    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 436  G ( A.G446    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 437  G . A.G447    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 438  A . A.A448    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+ 439  C . A.C449    0.002  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+ 440  G ( A.G450    0.008  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix-end,internal-loop,phosphate
+ 441  A . A.A451    0.010  anti,~C2'-endo,non-pair-contact,internal-loop,cap-donor,phosphate
+ 442  A . A.A452    0.005  anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,internal-loop,cap-acceptor,phosphate
+ 443  A . A.A453    0.009  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 444  C . A.C454    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 445  C ( A.C455    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop
+ 446  C ( A.C456    0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 447  C ( A.C457    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 448  C ( A.C458    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 449  G . A.G459    0.004  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop
+ 450  A . A.A460    0.014  u-turn,anti,~C3'-endo,non-pair-contact,hairpin-loop,splayed-apart
+ 451  C . A.C461    0.007  turn,u-turn,anti,~C2'-endo,non-stack,non-pair-contact,hairpin-loop,splayed-apart
+ 452  G . A.G462    0.004  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+ 453  A . A.A463    0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+ 454  G ) A.G474    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop,phosphate
+ 455  G ) A.G475    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 456  G ) A.G476    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 457  G ) A.G477    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop
+ 458  A . A.A478    0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 459  C . A.C479    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 460  U . A.U480    0.004  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,internal-loop
+ 461  G . A.G481    0.026  anti,~C3'-endo,non-pair-contact,internal-loop
+ 462  A . A.A482    0.017  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,A-minor
+ 463  C ) A.C483    0.003  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix-end,internal-loop
+ 464  G . A.G484    0.005  anti,non-canonical,non-pair-contact,helix,internal-loop
+ 465  G . A.G485    0.009  turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,internal-loop,phosphate
+ 466  U . A.U486    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+ 467  A . A.A487    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 468  C ) A.C488    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 469  C ) A.C489    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 470  G ) A.G490    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 471  G ) A.G491    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 472  G ) A.G492    0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 473  G . A.G494    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 474  U . A.U495    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 475  A . A.A496    0.007  turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+ 476  A . A.A497    0.010  anti,non-canonical,non-pair-contact,helix,junction-loop
+ 477  U . A.U498    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,phosphate
+ 478  A . A.A499    0.005  anti,~C2'-endo,BII,non-canonical,non-pair-contact,helix-end,junction-loop
+ 479  G ( A.G500    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop
+ 480  C ( A.C501    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 481  G ( A.G502    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,phosphate
+ 482  C ( A.C503    0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,phosphate
+ 483  C ( A.C504    0.003  anti,~C3'-endo,BII,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,cap-donor,phosphate,splayed-apart
+ 484  G . A.G505    0.009  anti,~C3'-endo,BI,non-pair-contact,bulge,phosphate,splayed-apart
+ 485  G . A.G506    0.010  anti,~C3'-endo,BI,non-pair-contact,bulge
+ 486  C . A.C507    0.005  anti,~C3'-endo,non-pair-contact,bulge,phosphate
+ 487  C . A.C508    0.008  anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,bulge,phosphate
+ 488  A . A.A509    0.014  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,bulge,A-minor,ribose-zipper,phosphate
+ 489  A . A.A510    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,bulge,A-minor,ribose-zipper,cap-acceptor,phosphate
+ 490  C ( A.C511    0.005  k-turn,anti,~C2'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 491  U ( A.U512    0.008  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 492  C ( A.C513    0.003  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 493  C ( A.C514    0.002  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 494  G ( A.G515    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 495  U . A.U516    0.007  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop
+ 496  G . A.G517    0.007  k-turn,anti,~C2'-endo,non-pair-contact,internal-loop,cap-acceptor,splayed-apart
+ 497  C . A.C518    0.009  turn,k-turn,anti,~C3'-endo,non-pair-contact,internal-loop,cap-donor,phosphate,splayed-apart
+ 498  C . A.C519    0.008  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,phosphate,splayed-apart
+ 499  A . A.A520    0.007  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop,phosphate
+ 500  G ( A.G521    0.011  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop,phosphate
+ 501  C ( A.C522    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,multiplet,hairpin-loop,A-minor,phosphate
+ 502  A . A.A523    0.010  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,splayed-apart
+ 503  G . A.G524    0.021  turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,splayed-apart
+ 504  C . A.C525    0.005  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate
+ 505  C . A.C526    0.010  anti,~C3'-endo,non-pair-contact,hairpin-loop,phosphate
+ 506  G ) A.G527    0.012  k-turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,multiplet,hairpin-loop,A-minor,phosphate
+ 507  C ) A.C528    0.013  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop,cap-donor
+ 508  G . A.G529    0.018  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop,cap-acceptor
+ 509  G . A.G530    0.012  turn,k-turn,syn,~C3'-endo,non-pair-contact,internal-loop,phosphate,splayed-apart
+ 510  U . A.U531    0.007  k-turn,anti,~C2'-endo,BII,non-pair-contact,internal-loop,cap-donor,phosphate,splayed-apart
+ 511  A . A.A532    0.003  turn,k-turn,anti,~C3'-endo,BI,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+ 512  A . A.A533    0.015  k-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop,phosphate,splayed-apart
+ 513  U . A.U534    0.003  turn,k-turn,anti,~C3'-endo,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+ 514  A . A.A535    0.023  k-turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,internal-loop,A-minor,cap-acceptor,phosphate,splayed-apart
+ 515  C ) A.C536    0.007  k-turn,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,splayed-apart
+ 516  G ) A.G537    0.006  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 517  G ) A.G538    0.006  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 518  A ) A.A539    0.003  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 519  G ) A.G540    0.012  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 520  G ) A.G541    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+ 521  G ) A.G542    0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper,phosphate
+ 522  C ) A.C543    0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper,phosphate
+ 523  G ) A.G544    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 524  C ) A.C545    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop,phosphate
+ 525  G . A.G546    0.006  anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate
+ 526  A . A.A547    0.008  turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,cap-acceptor,phosphate
+ 527  G ) A.G548    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 528  C ) A.C549    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 529  G ) A.G550    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 530  U ) A.U551    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 531  U ) A.U552    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 532  A ) A.A553    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 533  C ) A.C554    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 534  C ) A.C555    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 535  C ) A.C556    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,phosphate
+ 536  G . A.G557    0.009  anti,~C3'-endo,non-pair-contact,ss-non-loop
+ 537  G . A.G558    0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop,phosphate
+ 538  A . A.A559    0.018  syn,~C2'-endo,non-canonical,non-pair-contact,multiplet,ss-non-loop,phosphate,splayed-apart
+ 539  U . A.U560    0.006  turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,ss-non-loop,phosphate,splayed-apart
+ 540  U . A.U561    0.012  turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,ss-non-loop,cap-acceptor,phosphate,splayed-apart
+ 541  C . A.C562    0.013  turn,anti,~C2'-endo,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+ 542  A . A.A563    0.009  syn,~C3'-endo,BII,non-canonical,non-pair-contact,helix-end,ss-non-loop,splayed-apart
+ 543  C . A.C564    0.006  turn,anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+ 544  U . A.U565    0.006  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop,phosphate
+ 545  G . A.G566    0.014  anti,~C2'-endo,BII,non-canonical,non-pair-contact,helix,ss-non-loop,splayed-apart
+ 546  G ( A.G567    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,A-minor,splayed-apart
+ 547  G ( A.G568    0.005  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 548  C ( A.C569    0.004  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,cap-donor,splayed-apart
+ 549  G . A.G570    0.012  anti,~C3'-endo,non-pair-contact,multiplet,bulge,cap-donor,splayed-apart
+ 550  U . A.U571    0.012  anti,~C3'-endo,non-pair-contact,bulge,phosphate
+ 551  A . A.A572    0.016  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,bulge,cap-acceptor
+ 552  A . A.A573    0.022  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge,A-minor,ribose-zipper,phosphate
+ 553  A . A.A574    0.008  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,bulge,A-minor,ribose-zipper,cap-acceptor,phosphate
+ 554  G ( A.G575    0.018  anti,~C2'-endo,isolated-canonical,non-canonical,non-pair-contact,helix,multiplet,bulge,junction-loop
+ 555  G . A.G576    0.016  anti,~C2'-endo,non-stack,non-canonical,non-pair-contact,multiplet,junction-loop,cap-acceptor,phosphate
+ 556  G ( A.G577    0.015  turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,ribose-zipper,cap-donor
+ 557  C ( A.C578    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor,ribose-zipper,phosphate
+ 558  G ( A.G579    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 559  U ( A.U580    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 560  G . A.G581    0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 561  U . A.U582    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,cap-acceptor,phosphate
+ 562  A . A.A583    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 563  G ( A.G584    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 564  G ( A.G585    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 565  C ( A.C586    0.018  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop
+ 566  G . A.G587    0.031  anti,~C2'-endo,non-pair-contact,junction-loop,phosphate
+ 567  G ( A.G588    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+ 568  C ( A.C589    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 569  C ( A.C590    0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 570  U ( A.U591    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 571  G ( A.G592    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 572  G ( A.G593    0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 573  G ( A.G594    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 574  G . A.G595    0.011  anti,~C2'-endo,BII,non-canonical,non-pair-contact,multiplet,bulge
+ 575  C ( A.C596    0.004  anti,~C3'-endo,BI,non-stack,canonical,non-canonical,helix,stem-end,coaxial-stack,multiplet,bulge
+ 576  G ( A.G597    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,phosphate
+ 577  U ( A.U598    0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor
+ 578  C ( A.C599    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 579  C ( A.C600    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 580  C ( A.C601    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 581  A ( A.A602    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 582  U ( A.U603    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 583  G ( A.G604    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 584  U ( A.U605    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 585  G . A.G606    0.003  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,internal-loop,splayed-apart
+ 586  A . A.A607    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,A-minor,splayed-apart
+ 587  A . A.A608    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,A-minor
+ 588  A . A.A609    0.006  anti,~C3'-endo,BI,non-pair-contact,internal-loop,phosphate
+ 589  G . A.G610    0.015  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+ 590  A . A.A611    0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,internal-loop
+ 591  C ( A.C612    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop,phosphate
+ 592  C ( A.C613    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 593  A ( A.A614    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 594  C ( A.C615    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 595  G ( A.G616    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+ 596  G ( A.G617    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 597  C . A.C618    0.012  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,splayed-apart
+ 598  U . A.U619    0.007  turn,anti,~C3'-endo,BI,non-stack,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+ 599  C . A.C620    0.008  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+ 600  A . A.A621    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,ribose-zipper,phosphate
+ 601  A . A.A622    0.018  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,A-minor,ribose-zipper,phosphate
+ 602  C ) A.C623    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 603  C ) A.C624    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 604  G ) A.G625    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 605  U ) A.U626    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+ 606  G ) A.G627    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 607  G ) A.G628    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop
+ 608  G . A.G629    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,internal-loop
+ 609  G . A.G630    0.011  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+ 610  G . A.G631    0.004  anti,~C3'-endo,non-pair-contact,internal-loop
+ 611  A . A.A632    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,internal-loop,phosphate
+ 612  G ) A.G633    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 613  C ) A.C634    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 614  G ) A.G635    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 615  U ) A.U636    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 616  G ) A.G637    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 617  G ) A.G638    0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 618  G ) A.G639    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 619  A ) A.A640    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor
+ 620  U . A.U641    0.023  anti,~C2'-endo,BII,non-canonical,non-pair-contact,bulge
+ 621  A . A.A642    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge,A-minor
+ 622  C ) A.C643    0.005  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge
+ 623  G ) A.G644    0.012  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge
+ 624  C ) A.C645    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 625  U ) A.U646    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 626  C ) A.C647    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 627  A ) A.A648    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 628  G ) A.G649    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 629  G ) A.G650    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 630  C ) A.C651    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 631  U . A.U652    0.004  anti,~C2'-endo,non-canonical,non-pair-contact,helix,junction-loop
+ 632  A . A.A653    0.010  turn,syn,~C2'-endo,non-stack,non-pair-contact,junction-loop,phosphate
+ 633  G ( A.G654    0.012  anti,~C3'-endo,BI,isolated-canonical,non-canonical,non-pair-contact,helix,multiplet,bulge,junction-loop
+ 634  A ( A.A655    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 635  C ( A.C656    0.016  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 636  G ( A.G657    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge
+ 637  G ( A.G658    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+ 638  U ( A.U659    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 639  G ( A.G660    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 640  G ( A.G661    0.006  anti,~C3'-endo,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 641  G ( A.G662    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 642  A . A.A663    0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 643  G . A.G664    0.016  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate,splayed-apart
+ 644  A . A.A665    0.009  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,splayed-apart
+ 645  G ( A.G666    0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate,splayed-apart
+ 646  G ( A.G667    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 647  G ( A.G668    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 648  U ( A.U669    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 649  G ( A.G670    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 650  G ( A.G671    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 651  U ( A.U672    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 652  G ( A.G673    0.004  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop,junction-loop
+ 653  G . A.G674    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 654  A . A.A675    0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 655  A . A.A676    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,A-minor
+ 656  U . A.U677    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 657  U ( A.U678    0.005  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 658  C ( A.C679    0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 659  C ( A.C680    0.005  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 660  C ( A.C681    0.012  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 661  G ( A.G682    0.015  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 662  G ( A.G683    0.006  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 663  A . A.A684    0.006  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 664  G . A.G685    0.006  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 665  U . A.U686    0.011  k-turn,anti,~C2'-endo,BII,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+ 666  A . A.A687    0.006  k-turn,anti,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop,phosphate
+ 667  G ( A.G688    0.005  k-turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,multiplet,internal-loop,A-minor,phosphate
+ 668  C ( A.C689    0.009  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop,phosphate
+ 669  G . A.G690    0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 670  G . A.G691    0.020  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+ 671  U . A.U692    0.003  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate
+ 672  G . A.G693    0.013  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+ 673  A . A.A694    0.009  u-turn,anti,~C3'-endo,non-pair-contact,hairpin-loop,phosphate
+ 674  A . A.A695    0.009  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,phosphate
+ 675  A . A.A696    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,A-minor,ribose-zipper,phosphate
+ 676  U . A.U697    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop,ribose-zipper
+ 677  G ) A.G698    0.011  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 678  C ) A.C699    0.011  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,multiplet,internal-loop,A-minor
+ 679  G . A.G700    0.016  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop
+ 680  C . A.C701    0.002  turn,k-turn,anti,non-pair-contact,internal-loop,cap-donor,phosphate,splayed-apart
+ 681  A . A.A702    0.003  turn,k-turn,anti,~C2'-endo,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+ 682  G . A.G703    0.002  k-turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop,cap-acceptor,phosphate,splayed-apart
+ 683  A . A.A704    0.005  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor,phosphate
+ 684  U . A.U705    0.010  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 685  A . A.A706    0.007  k-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 686  C ) A.C707    0.010  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+ 687  C ) A.C708    0.003  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 688  G ) A.G709    0.011  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 689  G ) A.G710    0.009  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 690  G ) A.G711    0.009  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 691  A ) A.A712    0.014  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 692  G . A.G713    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 693  G . A.G714    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,A-minor,cap-donor
+ 694  A . A.A715    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 695  A . A.A716    0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 696  C ) A.C717    0.007  anti,~C2'-endo,BII,isolated-canonical,non-pair-contact,helix,internal-loop,junction-loop
+ 697  G . A.G718    0.012  anti,~C3'-endo,non-pair-contact,junction-loop,phosphate
+ 698  C . A.C719    0.005  anti,~C3'-endo,non-pair-contact,junction-loop,phosphate
+ 699  C . A.C720    0.005  anti,~C3'-endo,non-pair-contact,junction-loop,phosphate
+ 700  G . A.G721    0.009  anti,~C2'-endo,non-pair-contact,junction-loop,cap-donor
+ 701  A . A.A722    0.013  syn,~C3'-endo,BII,non-canonical,non-pair-contact,helix-end,junction-loop,cap-donor,cap-acceptor,splayed-apart
+ 702  U . A.U723    0.009  turn,anti,~C3'-endo,non-stack,junction-loop,cap-acceptor,splayed-apart
+ 703  G . A.G724    0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,phosphate,splayed-apart
+ 704  G ( A.G725    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop,phosphate
+ 705  C ( A.C726    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 706  G . A.G727    0.024  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,phosphate
+ 707  A . A.A728    0.013  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,A-minor,ribose-zipper,phosphate
+ 708  A . A.A729    0.013  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,ribose-zipper,cap-donor,phosphate
+ 709  G . A.G730    0.015  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,phosphate
+ 710  G ) A.G731    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop,cap-donor
+ 711  C ) A.C732    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop
+ 712  A . A.A733    0.018  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,junction-loop,splayed-apart
+ 713  G ) A.G734    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,splayed-apart
+ 714  C ) A.C735    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 715  C ) A.C736    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 716  A ) A.A737    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 717  C ) A.C738    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 718  C ) A.C739    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 719  U ) A.U740    0.017  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+ 720  G . A.G741    0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 721  G . A.G742    0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 722  U ) A.U743    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 723  C ) A.C744    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 724  C ) A.C745    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 725  A ) A.A746    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 726  C ) A.C747    0.007  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 727  C . A.C748    0.020  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge
+ 728  C ) A.C749    0.012  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,phosphate
+ 729  G ) A.G750    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 730  U ) A.U751    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 731  G . A.G752    0.016  anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,bulge
+ 732  A . A.A753    0.013  turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix,bulge,phosphate
+ 733  C ) A.C754    0.010  turn,syn,~C3'-endo,non-stack,isolated-canonical,non-canonical,non-pair-contact,helix,multiplet,bulge,junction-loop,phosphate,splayed-apart
+ 734  G ) A.G755    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,junction-loop,phosphate,splayed-apart
+ 735  C ) A.C756    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 736  U ) A.U757    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+ 737  G . A.G758    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 738  A . A.A759    0.017  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 739  G . A.G760    0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 740  G ) A.G761    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,cap-acceptor
+ 741  C ) A.C762    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 742  G ) A.G763    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor
+ 743  C ) A.C764    0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor
+ 744  G . A.G765    0.010  anti,~C3'-endo,BII,non-canonical,non-pair-contact,helix,junction-loop,splayed-apart
+ 745  A . A.A766    0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,A-minor,ribose-zipper,phosphate,splayed-apart
+ 746  A . A.A767    0.014  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,junction-loop,A-minor,ribose-zipper
+ 747  A . A.A768    0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+ 748  G ( A.G769    0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,phosphate
+ 749  C ( A.C770    0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+ 750  G ( A.G771    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 751  U ( A.U772    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 752  G ( A.G773    0.016  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 753  G ( A.G774    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 754  G . A.G775    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge
+ 755  G . A.G776    0.009  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,bulge,splayed-apart
+ 756  A . A.A777    0.004  anti,~C3'-endo,BI,non-pair-contact,bulge,A-minor,cap-acceptor,splayed-apart
+ 757  G ( A.G778    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,phosphate
+ 758  C ( A.C779    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+ 759  A . A.A780    0.008  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 760  A . A.A781    0.008  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 761  A . A.A782    0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 762  C ( A.C783    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+ 763  C ( A.C784    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 764  G ( A.G785    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor,ribose-zipper
+ 765  G ( A.G786    0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor,ribose-zipper
+ 766  A . A.A787    0.006  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+ 767  U . A.U788    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop
+ 768  U . A.U789    0.009  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-acceptor
+ 769  A . A.A790    0.004  turn,u-turn,anti,~C3'-endo,non-pair-contact,hairpin-loop
+ 770  G . A.G791    0.012  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,phosphate
+ 771  A . A.A792    0.010  u-turn,anti,~C2'-endo,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+ 772  U . A.U793    0.006  turn,anti,~C2'-endo,non-stack,non-pair-contact,hairpin-loop,cap-acceptor,phosphate,splayed-apart
+ 773  A . A.A794    0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+ 774  C . A.C795    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+ 775  C ) A.C796    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor
+ 776  C ) A.C797    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor
+ 777  G ) A.G798    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 778  G ) A.G799    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 779  G . A.G800    0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 780  U . A.U801    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 781  A . A.A802    0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 782  G ) A.G803    0.014  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+ 783  U ) A.U804    0.012  anti,~C3'-endo,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,phosphate
+ 784  C ) A.C805    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 785  C ) A.C806    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 786  A ) A.A807    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 787  C ) A.C808    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 788  G ) A.G809    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+ 789  C ) A.C810    0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor
+ 790  C . A.C811    0.014  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 791  C . A.C812    0.007  anti,~C3'-endo,non-pair-contact,junction-loop,phosphate
+ 792  U . A.U813    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate
+ 793  A . A.A814    0.014  anti,~C3'-endo,BI,non-pair-contact,junction-loop,cap-acceptor,phosphate,splayed-apart
+ 794  A . A.A815    0.012  turn,anti,~C2'-endo,non-pair-contact,junction-loop,splayed-apart
+ 795  A . A.A816    0.015  turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix,junction-loop,cap-donor,cap-acceptor,phosphate,splayed-apart
+ 796  C . A.C817    0.009  anti,~C2'-endo,non-pair-contact,junction-loop,cap-acceptor,splayed-apart
+ 797  G . A.G818    0.013  turn,anti,~C2'-endo,non-pair-contact,junction-loop,cap-acceptor,splayed-apart
+ 798  A . A.A819    0.011  turn,anti,~C2'-endo,non-pair-contact,junction-loop,cap-donor,splayed-apart
+ 799  U . A.U820    0.012  anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,cap-donor,cap-acceptor,phosphate,splayed-apart
+ 800  G ( A.G821    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate,splayed-apart
+ 801  C ( A.C822    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 802  G ( A.G823    0.019  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 803  C ( A.C824    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 804  G ( A.G825    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 805  C ( A.C826    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 806  U . A.U827    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop
+ 807  A . A.A828    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,cap-acceptor
+ 808  G ( A.G829    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 809  G ( A.G830    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 810  U ( A.U831    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 811  C ( A.C832    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 812  U ( A.U833    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 813  C ( A.C834    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 814  U ( A.U835    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 815  G ( A.G836    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 816  G ( A.G837    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 817  G ( A.G838    0.008  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop
+ 818  U . A.U839    0.010  turn,~C3'-endo,non-stack,non-pair-contact,hairpin-loop,splayed-apart
+ 819  C . A.C840    0.009  anti,~C3'-endo,non-pair-contact,hairpin-loop,splayed-apart
+ 820  U . A.U841    0.005  turn,anti,~C3'-endo,non-stack,non-pair-contact,hairpin-loop,splayed-apart
+ 821  C ) A.C848    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop,splayed-apart
+ 822  C ) A.C849    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 823  U ) A.U850    0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 824  G ) A.G851    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 825  G ) A.G852    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 826  G ) A.G853    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 827  G ) A.G854    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,cap-donor,phosphate
+ 828  G ) A.G855    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 829  C ) A.C856    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 830  C ) A.C857    0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 831  G . A.G858    0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 832  A . A.A859    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,junction-loop,cap-donor,phosphate
+ 833  A . A.A860    0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate
+ 834  G ( A.G861    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+ 835  C ( A.C862    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor
+ 836  U . A.U863    0.014  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop
+ 837  A . A.A864    0.011  turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,hairpin-loop
+ 838  A . A.A865    0.006  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+ 839  C . A.C866    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,cap-acceptor
+ 840  G ) A.G867    0.014  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor,cap-donor
+ 841  C ) A.C868    0.019  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,cap-donor
+ 842  G . A.G869    0.011  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,junction-loop,splayed-apart
+ 843  U . A.U870    0.006  turn,anti,~C2'-endo,non-pair-contact,junction-loop,phosphate,splayed-apart
+ 844  U . A.U871    0.011  turn,anti,~C2'-endo,non-stack,non-pair-contact,junction-loop,cap-acceptor,splayed-apart
+ 845  A . A.A872    0.010  syn,~C2'-endo,BII,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,splayed-apart
+ 846  A . A.A873    0.015  turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,A-minor,cap-acceptor,phosphate,splayed-apart
+ 847  G ) A.G874    0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,splayed-apart
+ 848  C ) A.C875    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 849  G ) A.G876    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 850  C ) A.C877    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 851  G ) A.G878    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 852  C ) A.C879    0.019  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+ 853  C ) A.C880    0.011  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,multiplet,bulge,junction-loop,phosphate
+ 854  G ) A.G881    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,cap-donor,phosphate
+ 855  C ) A.C882    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper,phosphate
+ 856  C ) A.C883    0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,A-minor,ribose-zipper
+ 857  U . A.U884    0.011  anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,ss-non-loop,splayed-apart
+ 858  G ( A.G885    0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,multiplet,cap-acceptor,splayed-apart
+ 859  G ( A.G886    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 860  G ( A.G887    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 861  G . A.G888    0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+ 862  A . A.A889    0.008  anti,~C2'-endo,BII,non-canonical,non-pair-contact,helix,internal-loop
+ 863  G . A.G890    0.007  turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,internal-loop
+ 864  U . A.U891    0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+ 865  A . A.A892    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 866  C . A.C893    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 867  G ( A.G894    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 868  G ( A.G895    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 869  C ( A.C896    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 870  C ( A.C897    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate
+ 871  G . A.G898    0.028  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,splayed-apart
+ 872  C . A.C899    0.009  turn,u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,splayed-apart
+ 873  A . A.A900    0.015  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,cap-donor,phosphate
+ 874  A . A.A901    0.008  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,phosphate
+ 875  G ) A.G902    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,cap-donor
+ 876  G ) A.G903    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 877  C ) A.C904    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 878  U ) A.U905    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 879  G . A.G906    0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 880  A . A.A907    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+ 881  A . A.A908    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+ 882  A . A.A909    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor
+ 883  C ) A.C910    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+ 884  U ) A.U911    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 885  C ) A.C912    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,multiplet
+ 886  A . A.A913    0.008  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,ss-non-loop,A-minor,phosphate
+ 887  A . A.A914    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop,phosphate
+ 888  A . A.A915    0.016  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,ss-non-loop,phosphate
+ 889  G . A.G916    0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,ss-non-loop
+ 890  G . A.G917    0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,ss-non-loop
+ 891  A . A.A918    0.007  anti,~C3'-endo,BI,non-pair-contact,multiplet,ss-non-loop,phosphate
+ 892  A . A.A919    0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,ss-non-loop,A-minor,phosphate
+ 893  U . A.U920    0.010  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,cap-donor
+ 894  U ( A.U921    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+ 895  G ( A.G922    0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor
+ 896  A ( A.A923    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+ 897  C ( A.C924    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+ 898  G ( A.G925    0.004  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,splayed-apart
+ 899  G . A.G926    0.014  turn,anti,~C3'-endo,non-pair-contact,bulge,splayed-apart
+ 900  G ( A.G927    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,cap-donor,phosphate,splayed-apart
+ 901  G ( A.G928    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 902  G ( A.G929    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 903  C ( A.C930    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 904  C ( A.C931    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 905  C ( A.C932    0.009  anti,~C3'-endo,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 906  G ( A.G933    0.008  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate,splayed-apart
+ 907  C . A.C934    0.003  turn,anti,~C2'-endo,BII,non-canonical,non-pair-contact,helix,internal-loop,phosphate,splayed-apart
+ 908  A ( A.A935    0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop,phosphate
+ 909  C ( A.C936    0.012  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop
+ 910  A . A.A937    0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate
+ 911  A . A.A938    0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,ribose-zipper
+ 912  G ( A.G939    0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,ribose-zipper,phosphate
+ 913  C ( A.C940    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 914  G ( A.G941    0.021  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 915  G ( A.G942    0.020  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 916  U ( A.U943    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 917  G . A.G944    0.012  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,junction-loop,phosphate
+ 918  G . A.G945    0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+ 919  A ( A.A946    0.017  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor
+ 920  G ( A.G947    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 921  C ( A.C948    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,phosphate
+ 922  A ( A.A949    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 923  U ( A.U950    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,cap-donor,phosphate
+ 924  G ( A.G951    0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,phosphate
+ 925  U ( A.U952    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+ 926  G ( A.G953    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+ 927  G ( A.G954    0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor,phosphate
+ 928  U ( A.U955    0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 929  U . A.U956    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,junction-loop
+ 930  U . A.U957    0.004  u-turn,anti,~C3'-endo,BI,non-pair-contact,junction-loop,cap-acceptor
+ 931  A . A.A958    0.007  turn,u-turn,anti,~C3'-endo,non-pair-contact,junction-loop,A-minor,ribose-zipper
+ 932  A . A.A959    0.005  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,A-minor,ribose-zipper,cap-donor,phosphate
+ 933  U . A.U960    0.006  turn,u-turn,syn,~C2'-endo,non-canonical,non-pair-contact,helix-end,junction-loop,phosphate,splayed-apart
+ 934  U . A.U961    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate,splayed-apart
+ 935  C ( A.C962    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 936  G ( A.G963    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop
+ 937  A . A.A964    0.005  anti,~C3'-endo,non-pair-contact,hairpin-loop,phosphate
+ 938  A . A.A965    0.010  anti,non-pair-contact,hairpin-loop,splayed-apart
+ 939  G . A.G966    0.011  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+ 940  C . A.C967    0.006  anti,~C3'-endo,non-pair-contact,hairpin-loop,phosphate
+ 941  A . A.A968    0.011  anti,~C2'-endo,non-pair-contact,hairpin-loop,cap-acceptor,splayed-apart
+ 942  A . A.A969    0.003  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+ 943  C . A.C970    0.004  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,hairpin-loop,splayed-apart
+ 944  G . A.G971    0.012  turn,anti,~C2'-endo,non-stack,non-pair-contact,hairpin-loop,cap-acceptor,phosphate,splayed-apart
+ 945  C ) A.C972    0.007  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop,phosphate,splayed-apart
+ 946  G ) A.G973    0.013  turn,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 947  A . A.A974    0.009  anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,phosphate,splayed-apart
+ 948  A . A.A975    0.016  turn,anti,non-stack,non-pair-contact,junction-loop,phosphate,splayed-apart
+ 949  G . A.G976    0.007  anti,~C2'-endo,BII,non-pair-contact,junction-loop,phosphate,splayed-apart
+ 950  A . A.A977    0.009  syn,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate,splayed-apart
+ 951  A . A.A978    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,phosphate,splayed-apart
+ 952  C . A.C979    0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,junction-loop,phosphate
+ 953  C . A.C980    0.006  anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate
+ 954  U . A.U981    0.005  anti,~C3'-endo,non-pair-contact,junction-loop,phosphate
+ 955  U . A.U982    0.004  anti,~C2'-endo,non-pair-contact,junction-loop,cap-donor,phosphate
+ 956  A . A.A983    0.006  turn,syn,~C3'-endo,non-canonical,non-pair-contact,helix,junction-loop,cap-acceptor,phosphate
+ 957  C ( A.C984    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,ribose-zipper
+ 958  C ( A.C985    0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor,ribose-zipper
+ 959  A ( A.A986    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 960  G ( A.G987    0.004  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 961  G ( A.G988    0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor
+ 962  C ( A.C989    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 963  C ( A.C990    0.005  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+ 964  U . A.U991    0.008  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,splayed-apart
+ 965  U . A.U992    0.013  turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,phosphate,splayed-apart
+ 966  G ( A.G993    0.015  syn,~C3'-endo,isolated-canonical,non-pair-contact,helix,multiplet,bulge,junction-loop,A-minor,phosphate
+ 967  A . A.A994    0.004  anti,~C3'-endo,BI,non-pair-contact,bulge,phosphate
+ 968  C . A.C995    0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,bulge
+ 969  A . A.A996    0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge,A-minor
+ 970  U ( A.U997    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge
+ 971  G ( A.G998    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 972  C ( A.C999    0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 973  U ( A.U1000   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 974  A ( A.A1001   0.003  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop
+ 975  G . A.G1002   0.006  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,junction-loop
+ 976  G . A.G1003   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,junction-loop
+ 977  G . A.G1003^A 0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 978  A . A.A1004   0.003  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,splayed-apart
+ 979  A . A.A1005   0.002  anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate,splayed-apart
+ 980  C . A.C1006   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,junction-loop
+ 981  C . A.C1007   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+ 982  C ( A.C1008   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop
+ 983  G ( A.G1009   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 984  G ( A.G1010   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 985  G ( A.G1011   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 986  U ( A.U1012   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 987  G . A.G1013   0.019  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,cap-acceptor,splayed-apart
+ 988  A . A.A1014   0.004  turn,u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,phosphate,splayed-apart
+ 989  A . A.A1015   0.013  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,A-minor,ribose-zipper,cap-donor,phosphate
+ 990  A . A.A1016   0.004  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,A-minor,ribose-zipper,phosphate
+ 991  G ) A.G1017   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 992  C ) A.C1018   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 993  C ) A.C1019   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 994  U ) A.U1020   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 995  G ) A.G1021   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop
+ 996  G . A.G1022   0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,junction-loop
+ 997  G . A.G1023   0.010  anti,~C3'-endo,non-canonical,non-pair-contact,junction-loop
+ 998  G . A.G1024   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,junction-loop
+ 999  U . A.U1025   0.006  anti,~C3'-endo,BII,non-pair-contact,junction-loop
+1000  G . A.G1026   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop
+1001  C ( A.C1027   0.007  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+1002  C ( A.C1028   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop
+1003  C . A.C1029   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,hairpin-loop
+1004  C . A.C1030   0.004  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+1005  G . A.G1030^A 0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,hairpin-loop,splayed-apart
+1006  C . A.C1030^B 0.005  turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,splayed-apart
+1007  G . A.G1030^C 0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,hairpin-loop
+1008  A . A.A1030^D 0.004  anti,~C3'-endo,non-pair-contact,hairpin-loop
+1009  G . A.G1031   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,hairpin-loop
+1010  G . A.G1032   0.003  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+1011  G ) A.G1033   0.003  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,hairpin-loop
+1012  G ) A.G1034   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+1013  A . A.A1035   0.003  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+1014  G . A.G1036   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop
+1015  C . A.C1037   0.003  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+1016  C . A.C1038   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop
+1017  C . A.C1039   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop
+1018  U ) A.U1040   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+1019  A ) A.A1041   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1020  G ) A.G1042   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1021  C ) A.C1043   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1022  A ) A.A1044   0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,cap-acceptor
+1023  C ) A.C1045   0.008  anti,~C3'-endo,BI,isolated-canonical,non-canonical,non-pair-contact,helix,multiplet,bulge,junction-loop,A-minor,cap-donor
+1024  A . A.A1046   0.008  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,junction-loop,cap-acceptor
+1025  G ( A.G1047   0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,cap-donor,phosphate
+1026  G ( A.G1048   0.021  anti,~C3'-endo,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,phosphate,splayed-apart
+1027  U . A.U1049   0.013  turn,anti,non-pair-contact,bulge,cap-acceptor,splayed-apart
+1028  G ( A.G1050   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate,splayed-apart
+1029  C ( A.C1051   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1030  U ( A.U1052   0.013  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1031  G . A.G1053   0.012  turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,internal-loop,splayed-apart
+1032  C . A.C1054   0.007  turn,anti,~C3'-endo,BI,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+1033  A . A.A1055   0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,cap-acceptor,phosphate,splayed-apart
+1034  U ( A.U1056   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,cap-donor,phosphate
+1035  G ( A.G1057   0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge
+1036  G ( A.G1058   0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge
+1037  C ( A.C1059   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1038  C ( A.C1060   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+1039  G ( A.G1061   0.008  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,bulge,internal-loop
+1040  U . A.U1062   0.006  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,cap-donor
+1041  C ( A.C1063   0.005  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix,internal-loop,junction-loop,phosphate
+1042  G . A.G1064   0.021  anti,~C2'-endo,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+1043  U . A.U1065   0.003  turn,anti,non-pair-contact,junction-loop
+1044  C . A.C1066   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,phosphate
+1045  A . A.A1067   0.011  anti,~C2'-endo,non-pair-contact,junction-loop
+1046  G ( A.G1068   0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,phosphate
+1047  C ( A.C1069   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1048  U ( A.U1070   0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,phosphate
+1049  C ( A.C1071   0.007  anti,~C3'-endo,BI,non-stack,canonical,non-canonical,helix,stem,coaxial-stack,multiplet
+1050  G ( A.G1072   0.004  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+1051  U ( A.U1073   0.013  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,phosphate
+1052  G ( A.G1074   0.005  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,phosphate
+1053  C ( A.C1075   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,cap-donor,phosphate
+1054  C ( A.C1076   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+1055  G . A.G1077   0.029  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,cap-acceptor
+1056  U . A.U1078   0.008  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+1057  G . A.G1079   0.020  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,ribose-zipper,cap-donor,phosphate
+1058  A . A.A1080   0.011  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,A-minor,ribose-zipper,cap-acceptor,phosphate
+1059  G ) A.G1081   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate
+1060  G ) A.G1082   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1061  U ) A.U1083   0.007  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor
+1062  G . A.G1084   0.014  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,cap-donor,phosphate
+1063  U . A.U1085   0.016  turn,anti,non-canonical,non-pair-contact,multiplet,junction-loop,cap-donor,splayed-apart
+1064  U . A.U1086   0.011  anti,~C3'-endo,BI,non-stack,non-canonical,non-pair-contact,helix-end,junction-loop,cap-acceptor,phosphate,splayed-apart
+1065  G ( A.G1087   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop
+1066  G ( A.G1088   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,A-minor
+1067  G ( A.G1089   0.016  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,hairpin-loop,A-minor
+1068  U . A.U1090   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+1069  U . A.U1091   0.010  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+1070  A . A.A1092   0.015  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate
+1071  A . A.A1093   0.011  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-donor,cap-acceptor,phosphate,splayed-apart
+1072  G . A.G1094   0.020  turn,u-turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,hairpin-loop,cap-acceptor,phosphate,splayed-apart
+1073  U . A.U1095   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop,cap-donor,phosphate,splayed-apart
+1074  C ) A.C1096   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,multiplet,hairpin-loop,A-minor,ribose-zipper
+1075  C ) A.C1097   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,A-minor,ribose-zipper,phosphate
+1076  C ) A.C1098   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop,phosphate
+1077  G . A.G1099   0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,junction-loop,phosphate
+1078  C . A.C1100   0.004  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+1079  A . A.A1101   0.018  turn,anti,non-canonical,non-pair-contact,multiplet,junction-loop,A-minor,cap-acceptor,phosphate
+1080  A ) A.A1102   0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,phosphate
+1081  C ) A.C1103   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,phosphate
+1082  G ) A.G1104   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+1083  A ) A.A1105   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+1084  G ) A.G1106   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1085  C ) A.C1107   0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,phosphate
+1086  G . A.G1108   0.009  anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate
+1087  C . A.C1109   0.005  anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate
+1088  A . A.A1110   0.009  anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate
+1089  A . A.A1111   0.007  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+1090  C . A.C1112   0.005  anti,~C3'-endo,non-pair-contact,junction-loop
+1091  C ( A.C1113   0.009  anti,~C3'-endo,BI,non-stack,canonical,helix-end,stem-end,junction-loop
+1092  C ( A.C1114   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1093  C ( A.C1115   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1094  C ( A.C1116   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,junction-loop
+1095  G . A.G1117   0.015  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+1096  C ( A.C1118   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop,phosphate
+1097  C ( A.C1119   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1098  G ( A.G1120   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1099  U ( A.U1121   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1100  U ( A.U1122   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1101  A ( A.A1123   0.008  anti,~C3'-endo,canonical,non-pair-contact,helix,stem
+1102  G ( A.G1124   0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,multiplet,internal-loop,A-minor,splayed-apart
+1103  U . A.U1125   0.009  turn,anti,~C3'-endo,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+1104  U . A.U1126   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,cap-donor,phosphate,splayed-apart
+1105  G ( A.G1127   0.009  anti,~C3'-endo,isolated-canonical,non-canonical,non-pair-contact,helix-end,multiplet,bulge,internal-loop,A-minor
+1106  C ( A.C1128   0.006  anti,~C3'-endo,isolated-canonical,non-canonical,non-pair-contact,helix-end,multiplet,bulge,A-minor,phosphate
+1107  C . A.C1129   0.007  turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,bulge,phosphate,splayed-apart
+1108  A . A.A1130   0.018  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,bulge,A-minor,phosphate,splayed-apart
+1109  G . A.G1131   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,bulge,phosphate
+1110  C ( A.C1132   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,multiplet,bulge,phosphate
+1111  G ( A.G1133   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1112  G ( A.G1134   0.005  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,hairpin-loop
+1113  U . A.U1135   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+1114  U . A.U1136   0.005  turn,anti,~C3'-endo,non-stack,non-pair-contact,hairpin-loop,splayed-apart
+1115  C . A.C1137   0.002  turn,anti,~C3'-endo,non-pair-contact,hairpin-loop,splayed-apart
+1116  G . A.G1138   0.005  turn,syn,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,phosphate
+1117  G . A.G1139   0.016  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop
+1118  C ) A.C1140   0.003  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,hairpin-loop,cap-donor,phosphate
+1119  C ) A.C1141   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1120  G ) A.G1142   0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,bulge
+1121  G ) A.G1143   0.005  anti,~C3'-endo,BI,isolated-canonical,non-canonical,non-pair-contact,helix-end,multiplet,bulge,A-minor
+1122  G . A.G1144   0.003  anti,~C3'-endo,non-canonical,non-pair-contact,helix,bulge
+1123  C ) A.C1145   0.013  anti,~C3'-endo,BI,isolated-canonical,non-canonical,non-pair-contact,helix-end,multiplet,bulge,internal-loop,A-minor
+1124  A . A.A1146   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,A-minor
+1125  C . A.C1147   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop
+1126  U . A.U1148   0.003  anti,~C3'-endo,BI,non-pair-contact,internal-loop,phosphate
+1127  C ) A.C1149   0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,multiplet,internal-loop,A-minor,phosphate
+1128  U ) A.U1150   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1129  A ) A.A1151   0.006  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1130  A ) A.A1152   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1131  C ) A.C1153   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1132  G ) A.G1154   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1133  G ) A.G1155   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop
+1134  G . A.G1156   0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,junction-loop
+1135  A . A.A1157   0.006  anti,~C2'-endo,non-canonical,non-pair-contact,junction-loop
+1136  C ( A.C1158   0.007  syn,~C3'-endo,BI,isolated-canonical,non-pair-contact,multiplet,internal-loop,junction-loop
+1137  U . A.U1159   0.004  turn,anti,~C2'-endo,BII,non-pair-contact,internal-loop
+1138  G . A.G1160   0.005  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop,phosphate
+1139  C ( A.C1161   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,multiplet,internal-loop
+1140  C ( A.C1162   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1141  C ( A.C1163   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1142  G ( A.G1164   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1143  C ( A.C1165   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+1144  G . A.G1166   0.007  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,cap-acceptor,splayed-apart
+1145  A . A.A1167   0.009  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,splayed-apart
+1146  A . A.A1168   0.005  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,A-minor,ribose-zipper,cap-donor,phosphate
+1147  A . A.A1169   0.006  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,A-minor,ribose-zipper,phosphate
+1148  G ) A.G1171   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+1149  C ) A.C1172   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1150  G ) A.G1173   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1151  G ) A.G1174   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1152  G ) A.G1175   0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,internal-loop
+1153  A . A.A1176   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop
+1154  G . A.G1177   0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop
+1155  G . A.G1178   0.011  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,internal-loop,cap-acceptor,phosphate
+1156  A . A.A1179   0.005  turn,u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,internal-loop
+1157  A . A.A1180   0.007  u-turn,anti,~C3'-endo,BI,non-pair-contact,internal-loop,cap-donor,phosphate
+1158  G ) A.G1181   0.009  u-turn,anti,~C2'-endo,BII,isolated-canonical,non-canonical,non-pair-contact,multiplet,internal-loop,junction-loop,phosphate
+1159  G . A.G1182   0.011  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,splayed-apart
+1160  A . A.A1183   0.010  turn,anti,~C3'-endo,non-pair-contact,junction-loop,phosphate,splayed-apart
+1161  G ) A.G1184   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,junction-loop,phosphate,splayed-apart
+1162  G ) A.G1185   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1163  G ) A.G1186   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1164  G ) A.G1187   0.008  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,junction-loop,phosphate
+1165  A . A.A1188   0.005  anti,~C3'-endo,BI,non-pair-contact,junction-loop
+1166  C . A.C1189   0.004  anti,~C3'-endo,non-pair-contact,junction-loop,phosphate
+1167  G . A.G1190   0.007  anti,~C3'-endo,non-canonical,non-pair-contact,helix,junction-loop,phosphate,splayed-apart
+1168  A . A.A1191   0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,A-minor,phosphate,splayed-apart
+1169  C . A.C1192   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,junction-loop
+1170  G ) A.G1193   0.015  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop,junction-loop
+1171  U . A.U1194   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1172  C ) A.C1195   0.014  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix,bulge,internal-loop,splayed-apart
+1173  U . A.U1196   0.008  turn,anti,~C2'-endo,non-stack,non-pair-contact,bulge,phosphate,splayed-apart
+1174  G ) A.G1197   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate,splayed-apart
+1175  G ) A.G1198   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1176  U ) A.U1199   0.005  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,phosphate
+1177  C . A.C1200   0.008  turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,bulge,splayed-apart
+1178  A . A.A1201   0.006  turn,anti,non-canonical,non-pair-contact,helix,multiplet,bulge,cap-donor,splayed-apart
+1179  G . A.G1202   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge,phosphate,splayed-apart
+1180  C ) A.C1203   0.004  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,phosphate
+1181  A ) A.A1204   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1182  U . A.U1205   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+1183  G ) A.G1206   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1184  G ) A.G1207   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1185  C ) A.C1208   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+1186  C ) A.C1209   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge
+1187  C ) A.C1210   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+1188  U . A.U1211   0.008  anti,non-canonical,non-pair-contact,multiplet,junction-loop,splayed-apart
+1189  U . A.U1212   0.006  turn,anti,~C3'-endo,BI,non-pair-contact,junction-loop,splayed-apart
+1190  A . A.A1213   0.015  anti,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop
+1191  C . A.C1214   0.010  turn,anti,~C3'-endo,non-stack,non-canonical,non-pair-contact,multiplet,junction-loop,splayed-apart
+1192  G ) A.G1215   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate,splayed-apart
+1193  G ) A.G1216   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1194  C ) A.C1217   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper
+1195  C ) A.C1218   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper
+1196  U ) A.U1219   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1197  G ) A.G1220   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor
+1198  G ) A.G1221   0.012  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,phosphate
+1199  G . A.G1222   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+1200  C . A.C1223   0.005  turn,anti,~C3'-endo,non-pair-contact,junction-loop,phosphate
+1201  G . A.G1224   0.010  turn,anti,non-pair-contact,junction-loop,cap-acceptor,phosphate,splayed-apart
+1202  A ) A.A1225   0.006  ~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate,splayed-apart
+1203  C ) A.C1226   0.020  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor,phosphate
+1204  A . A.A1227   0.012  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,bulge,A-minor,phosphate
+1205  C ) A.C1228   0.009  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+1206  A ) A.A1229   0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1207  C ) A.C1230   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+1208  G ) A.G1231   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1209  U ) A.U1232   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1210  G ) A.G1233   0.014  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,phosphate
+1211  C ) A.C1234   0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1212  U ) A.U1235   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,A-minor,phosphate
+1213  A . A.A1236   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+1214  C ( A.C1237   0.011  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix-end,junction-loop,phosphate,splayed-apart
+1215  A . A.A1238   0.012  anti,~C3'-endo,BI,non-stack,non-canonical,non-pair-contact,helix,multiplet,junction-loop,A-minor,cap-acceptor,phosphate,splayed-apart
+1216  A . A.A1239   0.006  anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,junction-loop,cap-donor,splayed-apart
+1217  U . A.U1240   0.004  turn,anti,~C2'-endo,junction-loop,phosphate,splayed-apart
+1218  G ( A.G1241   0.005  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,multiplet,junction-loop,A-minor,cap-acceptor,phosphate,splayed-apart
+1219  C ( A.C1242   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1220  C ( A.C1243   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1221  C ( A.C1244   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1222  A ( A.A1245   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1223  C ( A.C1246   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1224  U ( A.U1247   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop
+1225  A . A.A1248   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+1226  C . A.C1249   0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,internal-loop
+1227  A . A.A1250   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,A-minor,ribose-zipper,phosphate
+1228  A . A.A1251   0.006  anti,~C3'-endo,BI,non-pair-contact,internal-loop,ribose-zipper
+1229  A . A.A1252   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,internal-loop
+1230  G ( A.G1253   0.008  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop
+1231  C ( A.C1254   0.004  k-turn,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,multiplet
+1232  G ( A.G1255   0.007  k-turn,anti,~C3'-endo,BII,canonical,non-canonical,non-pair-contact,helix-end,stem-end,multiplet,internal-loop,phosphate
+1233  A . A.A1256   0.006  k-turn,syn,~C3'-endo,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+1234  U . A.U1257   0.004  turn,k-turn,anti,~C3'-endo,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+1235  G ( A.G1258   0.004  k-turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,multiplet,internal-loop,phosphate,splayed-apart
+1236  C ( A.C1259   0.004  k-turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+1237  C . A.C1260   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1238  A . A.A1261   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1239  C ( A.C1262   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1240  C ( A.C1263   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1241  C ( A.C1264   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1242  G ( A.G1265   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+1243  G . A.G1266   0.009  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,cap-acceptor,splayed-apart
+1244  C . A.C1267   0.008  turn,u-turn,anti,~C3'-endo,non-pair-contact,hairpin-loop,splayed-apart
+1245  A . A.A1268   0.004  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,ribose-zipper,cap-donor,phosphate
+1246  A . A.A1269   0.004  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,A-minor,ribose-zipper,phosphate
+1247  C ) A.C1270   0.006  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate
+1248  G ) A.G1271   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1249  G ) A.G1272   0.016  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1250  G ) A.G1273   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1251  G . A.G1274   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1252  A . A.A1275   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1253  G ) A.G1276   0.008  k-turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+1254  C ) A.C1277   0.004  k-turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,multiplet,internal-loop
+1255  U . A.U1278   0.008  turn,k-turn,syn,~C3'-endo,non-stack,non-pair-contact,internal-loop,splayed-apart
+1256  A . A.A1279   0.009  k-turn,~C3'-endo,BII,non-canonical,non-pair-contact,internal-loop,splayed-apart
+1257  A . A.A1280   0.005  turn,k-turn,anti,~C2'-endo,BI,non-stack,non-canonical,non-pair-contact,multiplet,internal-loop,A-minor,cap-acceptor,splayed-apart
+1258  U . A.U1281   0.020  k-turn,anti,~C3'-endo,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+1259  C ) A.C1282   0.010  k-turn,anti,~C3'-endo,BI,non-stack,canonical,non-canonical,non-pair-contact,helix-end,stem-end,multiplet,internal-loop,phosphate,splayed-apart
+1260  G ) A.G1283   0.004  k-turn,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet
+1261  C ) A.C1284   0.005  k-turn,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,internal-loop
+1262  A . A.A1285   0.009  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,internal-loop,cap-donor,phosphate
+1263  A . A.A1286   0.007  turn,anti,~C3'-endo,BI,non-stack,non-pair-contact,internal-loop,cap-acceptor,phosphate
+1264  A . A.A1287   0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,A-minor,ribose-zipper
+1265  A . A.A1288   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,internal-loop,A-minor,ribose-zipper,phosphate
+1266  A . A.A1289   0.015  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor
+1267  G ) A.G1290   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop,phosphate
+1268  G ) A.G1291   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1269  U ) A.U1292   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1270  G ) A.G1293   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1271  G ) A.G1294   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1272  G ) A.G1295   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1273  C ) A.C1296   0.003  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,multiplet,junction-loop,A-minor
+1274  C . A.C1297   0.008  anti,~C2'-endo,BII,non-pair-contact,junction-loop,phosphate
+1275  C . A.C1298   0.013  anti,~C2'-endo,non-pair-contact,junction-loop,cap-donor,phosphate
+1276  A . A.A1299   0.013  syn,~C3'-endo,non-canonical,non-pair-contact,helix-end,junction-loop,cap-acceptor
+1277  G . A.G1300   0.015  turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,junction-loop
+1278  U . A.U1301   0.015  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate,splayed-apart
+1279  U . A.U1302   0.005  turn,anti,~C2'-endo,non-stack,non-pair-contact,junction-loop,phosphate,splayed-apart
+1280  C ( A.C1303   0.010  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop,junction-loop,cap-donor,phosphate,splayed-apart
+1281  G . A.G1304   0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+1282  G . A.G1305   0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1283  A . A.A1306   0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1284  U . A.U1307   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1285  U ( A.U1308   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop,phosphate
+1286  G ( A.G1309   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1287  G ( A.G1310   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1288  G ( A.G1311   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,multiplet,A-minor
+1289  G ( A.G1312   0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,A-minor
+1290  U ( A.U1313   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1291  C ( A.C1314   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+1292  U . A.U1315   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop
+1293  G . A.G1316   0.021  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop,cap-acceptor
+1294  C . A.C1317   0.005  turn,u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,hairpin-loop
+1295  A . A.A1318   0.006  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,phosphate
+1296  A . A.A1319   0.005  u-turn,anti,BII,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop,phosphate,splayed-apart
+1297  C . A.C1320   0.003  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,splayed-apart
+1298  C . A.C1321   0.007  anti,~C3'-endo,non-pair-contact,hairpin-loop,phosphate
+1299  C . A.C1322   0.006  anti,~C2'-endo,BII,non-pair-contact,hairpin-loop,cap-donor,phosphate,splayed-apart
+1300  G ) A.G1323   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop,splayed-apart
+1301  A ) A.A1324   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1302  C ) A.C1325   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,multiplet,A-minor,ribose-zipper,phosphate
+1303  C ) A.C1326   0.004  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,A-minor,ribose-zipper,phosphate
+1304  C ) A.C1327   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1305  C ) A.C1328   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1306  A ) A.A1329   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,internal-loop,phosphate
+1307  U . A.U1330   0.006  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+1308  G . A.G1331   0.011  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+1309  A . A.A1332   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1310  A . A.A1333   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor
+1311  G ) A.G1334   0.006  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix,internal-loop,junction-loop
+1312  C . A.C1335   0.005  turn,anti,~C2'-endo,non-pair-contact,junction-loop,phosphate,splayed-apart
+1313  C . A.C1336   0.006  anti,~C2'-endo,non-pair-contact,junction-loop,cap-donor,phosphate,splayed-apart
+1314  G ) A.G1337   0.013  anti,~C3'-endo,BII,isolated-canonical,non-pair-contact,helix-end,junction-loop,cap-acceptor,splayed-apart
+1315  G . A.G1338   0.013  anti,~C3'-endo,BI,non-pair-contact,junction-loop,phosphate,splayed-apart
+1316  A . A.A1339   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,junction-loop
+1317  A ) A.A1340   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop
+1318  U ) A.U1341   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1319  C ) A.C1342   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1320  G ) A.G1343   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1321  C ) A.C1344   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,junction-loop,phosphate
+1322  U . A.U1345   0.015  turn,anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,phosphate
+1323  A . A.A1346   0.007  anti,~C3'-endo,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+1324  G . A.G1347   0.009  turn,anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,junction-loop,phosphate
+1325  U . A.U1348   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate
+1326  A . A.A1349   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+1327  A ( A.A1350   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop,phosphate
+1328  U ( A.U1351   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,multiplet,A-minor
+1329  C ( A.C1352   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,multiplet,A-minor,ribose-zipper,phosphate
+1330  G ( A.G1353   0.008  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,A-minor,ribose-zipper,phosphate
+1331  C ( A.C1354   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1332  G ( A.G1355   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1333  G ( A.G1356   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop,phosphate
+1334  A . A.A1357   0.008  anti,~C3'-endo,non-canonical,non-pair-contact,helix,hairpin-loop,phosphate
+1335  U . A.U1358   0.009  anti,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+1336  C . A.C1359   0.012  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+1337  A . A.A1360   0.014  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,hairpin-loop,phosphate,splayed-apart
+1338  G . A.G1361   0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop
+1339  C . A.C1361^A 0.002  anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+1340  C . A.C1362   0.008  turn,anti,~C3'-endo,non-stack,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+1341  A . A.A1363   0.009  anti,~C2'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate,splayed-apart
+1342  U . A.U1364   0.009  turn,anti,~C2'-endo,non-stack,non-canonical,non-pair-contact,multiplet,hairpin-loop,splayed-apart
+1343  G . A.G1365   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop,cap-donor,phosphate,splayed-apart
+1344  C ) A.C1366   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+1345  C ) A.C1367   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1346  G ) A.G1368   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1347  C ) A.C1369   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,multiplet,A-minor,ribose-zipper,phosphate
+1348  G ) A.G1370   0.011  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,A-minor,ribose-zipper
+1349  G ) A.G1371   0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,A-minor
+1350  U ) A.U1372   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,junction-loop,phosphate
+1351  G . A.G1373   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,phosphate
+1352  A . A.A1374   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate
+1353  A . A.A1375   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,junction-loop,ribose-zipper,phosphate
+1354  U . A.U1376   0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,junction-loop,ribose-zipper,phosphate
+1355  A . A.A1377   0.012  anti,~C3'-endo,non-pair-contact,junction-loop,phosphate,splayed-apart
+1356  C . A.C1378   0.012  turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,junction-loop,phosphate,splayed-apart
+1357  G ) A.G1379   0.006  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,junction-loop,phosphate
+1358  U ) A.U1380   0.009  anti,~C3'-endo,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+1359  U . A.U1381   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop,phosphate
+1360  C . A.C1382   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop
+1361  C . A.C1383   0.004  anti,~C3'-endo,BI,non-stack,non-canonical,multiplet,internal-loop
+1362  C ) A.C1384   0.005  anti,~C3'-endo,BI,non-stack,canonical,helix,stem-end,coaxial-stack,internal-loop
+1363  G ) A.G1385   0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1364  G ) A.G1386   0.017  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1365  G ) A.G1387   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1366  C ) A.C1388   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1367  C ) A.C1389   0.016  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1368  U ) A.U1390   0.016  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+1369  U ) A.U1391   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+1370  G ) A.G1392   0.012  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet
+1371  U ) A.U1393   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,splayed-apart
+1372  A . A.A1394   0.012  turn,anti,~C2'-endo,non-stack,non-pair-contact,bulge,cap-acceptor,splayed-apart
+1373  C ) A.C1395   0.015  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,bulge,A-minor,splayed-apart
+1374  A ) A.A1396   0.015  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,splayed-apart
+1375  C . A.C1397   0.007  turn,anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+1376  A . A.A1398   0.009  anti,~C3'-endo,non-stack,non-canonical,non-pair-contact,multiplet,ss-non-loop,A-minor,phosphate,splayed-apart
+1377  C ( A.C1399   0.006  anti,~C2'-endo,isolated-canonical,non-pair-contact,helix-end,internal-loop,phosphate,splayed-apart
+1378  C . A.C1400   0.004  turn,anti,~C2'-endo,non-stack,internal-loop,splayed-apart
+1379  G ( A.G1401   0.012  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop,splayed-apart
+1380  C . A.C1402   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1381  C . A.C1403   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+1382  C ( A.C1404   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,A-minor,ribose-zipper
+1383  G ( A.G1405   0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop,ribose-zipper,phosphate
+1384  U . A.U1406   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+1385  C ( A.C1407   0.004  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop
+1386  A . A.A1408   0.012  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+1387  C ( A.C1409   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1388  G ( A.G1410   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1389  C ( A.C1411   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1390  C ( A.C1412   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+1391  A . A.A1413   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor
+1392  U ( A.U1414   0.019  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1393  G ( A.G1415   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1394  G ( A.G1416   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1395  G . A.G1417   0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+1396  A . A.A1418   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1397  G ( A.G1419   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1398  C ( A.C1420   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1399  G ( A.G1421   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1400  G ( A.G1422   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1401  G ( A.G1423   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1402  C ( A.C1424   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1403  U ( A.U1425   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1404  C ( A.C1426   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1405  U ( A.U1427   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1406  A ( A.A1428   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1407  C ( A.C1429   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1408  C ( A.C1430   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1409  C ( A.C1431   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1410  G . A.G1432   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1411  A . A.A1433   0.006  anti,~C3'-endo,BI,non-pair-contact,internal-loop,A-minor,ribose-zipper,phosphate
+1412  A . A.A1434   0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor,ribose-zipper
+1413  G ( A.G1435   0.007  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop
+1414  U . A.U1436   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1415  C ( A.C1437   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1416  G ( A.G1438   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1417  C ( A.C1439   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1418  C ( A.C1440   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+1419  G . A.G1441   0.005  turn,anti,~C3'-endo,BII,non-canonical,non-pair-contact,helix,internal-loop
+1420  G . A.G1442   0.006  ~C3'-endo,non-canonical,non-pair-contact,multiplet,internal-loop,splayed-apart
+1421  G . A.G1443   0.011  turn,anti,~C3'-endo,non-stack,non-pair-contact,internal-loop,phosphate,splayed-apart
+1422  A . A.A1446   0.014  syn,~C3'-endo,BI,non-pair-contact,internal-loop,phosphate,splayed-apart
+1423  G ( A.G1447   0.006  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1424  C ( A.C1448   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1425  C ( A.C1449   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+1426  U . A.U1450   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+1427  A . A.A1451   0.007  turn,anti,~C3'-endo,non-stack,non-pair-contact,hairpin-loop,phosphate,splayed-apart
+1428  C . A.C1452   0.007  turn,anti,~C2'-endo,non-pair-contact,hairpin-loop,cap-donor,phosphate,splayed-apart
+1429  G . A.G1453   0.006  turn,syn,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+1430  G ) A.G1454   0.024  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate
+1431  G ) A.G1455   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1432  C ) A.C1459   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,phosphate
+1433  A . A.A1460   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1434  G ) A.G1461   0.009  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+1435  G ) A.G1462   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1436  C ) A.C1463   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1437  G ) A.G1464   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1438  C . A.C1465   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1439  C ) A.C1466   0.004  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop
+1440  G . A.G1467   0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+1441  A . A.A1468   0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1442  G ) A.G1469   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1443  G ) A.G1470   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1444  G ) A.G1471   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1445  U ) A.U1472   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1446  A ) A.A1473   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1447  G ) A.G1474   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1448  G ) A.G1475   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1449  G ) A.G1476   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1450  C ) A.C1477   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1451  C ) A.C1478   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1452  C ) A.C1479   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1453  G ) A.G1480   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1454  U ) A.U1481   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1455  G . A.G1482   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+1456  A . A.A1483   0.003  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+1457  C ) A.C1484   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1458  U ) A.U1485   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1459  G ) A.G1486   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1460  G . A.G1487   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor
+1461  G ) A.G1488   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+1462  G ) A.G1489   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+1463  C ) A.C1490   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+1464  G ) A.G1491   0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,cap-acceptor,phosphate,splayed-apart
+1465  A . A.A1492   0.004  anti,~C3'-endo,BI,non-pair-contact,internal-loop,phosphate,splayed-apart
+1466  A . A.A1493   0.005  anti,~C3'-endo,non-pair-contact,internal-loop,phosphate,splayed-apart
+1467  G ) A.G1494   0.014  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop,phosphate,splayed-apart
+1468  U . A.U1495   0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+1469  C ) A.C1496   0.004  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+1470  G ) A.G1497   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,A-minor
+1471  U . A.U1498   0.010  anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,internal-loop,phosphate
+1472  A . A.A1499   0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,phosphate
+1473  A . A.A1500   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+1474  C ) A.C1501   0.006  anti,~C3'-endo,isolated-canonical,non-pair-contact,helix,internal-loop,cap-donor,phosphate
+1475  A . A.A1502   0.022  anti,~C2'-endo,non-canonical,non-pair-contact,multiplet,internal-loop,phosphate,splayed-apart
+1476  A . A.A1503   0.005  turn,anti,~C2'-endo,BI,non-stack,non-pair-contact,internal-loop,cap-acceptor,phosphate,splayed-apart
+1477  G ) A.G1504   0.010  turn,anti,isolated-canonical,non-pair-contact,helix-end,internal-loop,cap-donor,phosphate,splayed-apart
+1478  G . A.G1505   0.014  anti,~C3'-endo,non-pair-contact,ss-non-loop,cap-acceptor,phosphate,splayed-apart
+1479  U . A.U1506   0.016  turn,anti,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,splayed-apart
+1480  A ( A.A1507   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,splayed-apart
+1481  G ( A.G1508   0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1482  C ( A.C1509   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1483  U ( A.U1510   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,multiplet,A-minor
+1484  G ( A.G1511   0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,A-minor
+1485  U ( A.U1512   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1486  A ( A.A1513   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1487  C ( A.C1514   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1488  C ( A.C1515   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+1489  G . A.G1516   0.014  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-donor
+1490  G . A.G1517   0.008  turn,u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop
+1491  A . A.A1518   0.009  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,hairpin-loop,A-minor,ribose-zipper,phosphate
+1492  A . A.A1519   0.016  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,A-minor,ribose-zipper,phosphate
+1493  G ) A.G1520   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+1494  G ) A.G1521   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1495  U ) A.U1522   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1496  G ) A.G1523   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+1497  C ) A.C1524   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,multiplet,A-minor,ribose-zipper,phosphate
+1498  G ) A.G1525   0.016  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,multiplet,A-minor,ribose-zipper,phosphate
+1499  G ) A.G1526   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1500  C ) A.C1527   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+1501  U ) A.U1528   0.007  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end
+1502  G . A.G1529   0.012  turn,syn,~C2'-endo,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+1503  G . A.G1530   0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,splayed-apart
+1504  A . A.A1531   0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+1505  U . A.U1532   0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+1506  C . A.C1533   0.006  turn,anti,~C3'-endo,BI,non-stack,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+1507  A . A.A1534   0.001  anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop,phosphate
+1508  U . X.U1      0.049  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+1509  U . X.U2      0.008  anti,~C3'-endo,non-pair-contact,ss-non-loop
+1510  U . X.U3      0.005  anti,~C3'-endo,BII,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+1511  U . X.U4      0.010  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+1512  C . X.C5      0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+1513  U . X.U6      0.006  anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate
