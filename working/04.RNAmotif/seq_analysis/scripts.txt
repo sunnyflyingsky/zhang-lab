@@ -1,0 +1,28 @@
+我跑的中间文件均在zhangqf7上: /Share2/home/zhangqf7/yuhan/3_zhaokang/20211115_smartseq3/4.mapGenome/temp
+
+#mapping到transcriptome上
+bowtie2-build /Share2/home/zhangqf7/yuhan/0_genome/bowtie2/mm10_transcript/mm10_trans.fa /Share2/home/zhangqf7/yuhan/0_genome/bowtie2/mm10_transcript/mm10_trans
+bowtie2 -p 6 --rg-id sample_id --rg "PL:ILLUMINA" --rg "SM:{sample_name}" \
+	-x /Share2/home/zhangqf7/yuhan/0_genome/bowtie2/mm10_transcript/mm10_trans \
+	-U /Share2/home/zhangqf7/yuhan/3_zhaokang/20211115_smartseq3/3.merge/3_merged2.fastq > 3_merged2_large.sam
+
+#sam转bam并sort
+cat 3_merged2_large.sam |grep "^[A@]" > 3_merged2_large_clean.sam
+samtools view -h 3_merged2_large_clean.sam |samtools sort -@ 8 > 3_merged2_large_sorted.bam
+
+#获取transcriptome的长度信息
+samtools view -h 3_merged2_large_sorted.bam| grep "@SQ" >3_merged2_large_sorted_anno.txt
+
+#获取unique的reads
+samtools view -bq 2 3_merged2_large_sorted.bam > 3_merged2_large_unique_sorted.bam
+
+#获取bc2的reads信息
+samtools view -h 3_merged2_large_unique_sorted.bam |grep "^@" > 3_merged2_large_unique_sorted_bc2.sam
+samtools view -h 3_merged2_large_unique_sorted.bam |grep "GGAGAGTT+CCAACCAA" >> 3_merged2_large_unique_sorted_bc2.sam
+
+#获取bed文件并且merge
+bamToBed -i 3_merged2_large_unique_sorted_bc2.bam > 3_merged2_large_unique_sorted_bc2.bed
+bedtools merge -i 3_merged2_large_unique_sorted_bc2.bed > 3_merged2_large_unique_sorted_bc2_merged.bed
+
+#python脚本计算
+cal_cover.py

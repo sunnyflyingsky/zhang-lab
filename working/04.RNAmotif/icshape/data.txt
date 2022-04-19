@@ -1,0 +1,18 @@
+icSHAPE
+/Share2/home/zhangqf7/yuhan/2_jianghui/20211212_G3BP1_control/0.rawdata/OMM_DBH_R1.fq   C
+/Share2/home/zhangqf7/yuhan/2_jianghui/20211212_G3BP1_control/0.rawdata/OMM_DBH_R2.fq   C
+/Share2/home/zhangqf7/yuhan/2_jianghui/20211212_G3BP1_control/0.rawdata/OMM_NBH_R1.fq
+/Share2/home/zhangqf7/yuhan/2_jianghui/20211212_G3BP1_control/0.rawdata/OMM_NBH_R2.fq
+
+3‘端的adaptor: adaptor.fa
+5‘端会有10个random bases，直接移除10个碱基即可
+
+
+
+smartSHAPE
+/Share2/home/zhangqf7/yuhan/1_xiwen/20211213_TAM/0.rawdata/cKO_R1.fq
+/Share2/home/zhangqf7/yuhan/1_xiwen/20211213_TAM/0.rawdata/cKO_R2.fq
+
+icshape-pipeline calcSHAPENoCont
+
+
